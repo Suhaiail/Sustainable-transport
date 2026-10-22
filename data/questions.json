@@ -1,0 +1,1365 @@
+{
+  "1": {
+    "title": "Week 1",
+    "description": "Introduction to Environmental Impact Assessment (EIA) and Transportation systems",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which of the following is the first form of transportation for humans?",
+        "options": [
+          "Primitive log rafts",
+          "Animals",
+          "Walking",
+          "None of these"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 2,
+        "question": "Sustainable development requires an energy source that ________________.",
+        "options": [
+          "Cannot be exhausted completely and cannot meet the growing demand",
+          "Can be completely exhausted and can meet the growing demand",
+          "Cannot be exhausted completely and can meet the growing demand",
+          "Cannot destroy the environment and can be exhausted completely"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 3,
+        "question": "Match the List I with List II and select the correct answer using the codes given below the lists:\n\n| List I | List II |\n| --- | --- |\n| A) \"Penny-farthing\" bicycle | 1. Twin engine |\n| B) Tupolev Tu-144 | 2. Air cushion |\n| C) Bombardier Global express | 3. James Starley |\n| D) Maglev | 4. Breaking the sound barrier |",
+        "options": [
+          "A-3, B-4, C-2, D-1",
+          "A-4, B-3, C-2, D-1",
+          "A-3, B-4, C-1, D-2",
+          "A-4, B-3, C-1, D-2"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 4,
+        "question": "Which of the following is not a component of the passenger transportation system?",
+        "options": [
+          "Airport",
+          "Oil Pipeline",
+          "Walking",
+          "Push Scooters"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 5,
+        "question": "Refer to the statements given below:\n\rStatement 1: Sustainable development meets the needs of the present without compromising the ability of future generations to meet their own needs.\nStatement 2: By adopting Sustainable measures, the natural resources can be conserved and alternate sources of power can be used without harming the environment.\nStatement 3: The sustainable development measures can make a human settlement or habitat self-sufficient\n\nChoose the correct options out of the following:",
+        "options": [
+          "All statements 1, 2 and 3 are true",
+          "Only statement 1 is true",
+          "Statements 2 and 3 are false",
+          "Only statement 3 is false"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 6,
+        "question": "Predicting the risk assessment scenarios is a requisite for development of any policy measures for Sustainable development.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 7,
+        "question": "The Provision of Urban Amenities to Rural Area (PURA) was a strategy aiming Sustainable development in India and was given by _________________",
+        "options": [
+          "Shri. A.P.J. Abdul Kalam",
+          "Shri. Pranab Mukherjee",
+          "Shri. K. R. Narayanan",
+          "None of these"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 8,
+        "question": "The total number of Sustainable Development Goals (SDGs) by the United Nations are:",
+        "options": [
+          "12",
+          "15",
+          "17",
+          "18"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 9,
+        "question": "Which one of the following means of transportation is most environment friendly?",
+        "options": [
+          "Walking",
+          "Public Transport",
+          "Electric Vehicle",
+          "CNG Vehicle"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 10,
+        "question": "What can be inferred from the graph shown below? Select the correct answer from the options given.\n\n![Line graph of vehicle categories as a percentage of total registered motor vehicles in India, 1951 to 2016. Two wheelers rise from about 9% in 1951 to about 73% by 2016; cars, jeeps and taxis fall from about 52% to about 13% over the same period, with buses, goods vehicles and other vehicles each staying under 27% throughout.](assets/images/week_1_q10.webp)",
+        "options": [
+          "Two wheelers account for the major share of road transportation",
+          "The percentage share of two wheelers were approximately equal to the composition of cars, jeeps and taxis in the 1970’s.",
+          "Though the composition of private vehicles have declined in comparison to the other modes, the registered vehicles have increased in the 20th century.",
+          "All (a), (b) and (c) are true",
+          "(e) Only (a) and (b) are true"
+        ],
+        "correctOption": 3
+      }
+    ]
+  },
+  "2": {
+    "title": "Week 2",
+    "description": "Land-use plans, zoning schemes and provisions",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which of the following is not a direct impact of transportation systems on the environment?",
+        "options": [
+          "Habitat fragmentation",
+          "Loss of Wildlife Habitat",
+          "Corridor restrictions",
+          "Forest Fires"
+        ],
+        "correctOption": 3
+      },
+      {
+        "id": 2,
+        "question": "\"Bhungroo\" is applied as a mitigation measure for __________",
+        "options": [
+          "Protecting biodiversity",
+          "Reducing road accidents",
+          "Soil stabilization",
+          "Ground water recharge"
+        ],
+        "correctOption": 3
+      },
+      {
+        "id": 3,
+        "question": "Which of the following is the most used fuel in transport sector worldwide in year 2020?",
+        "options": [
+          "Hydrogen",
+          "Gasoline",
+          "Biofuel",
+          "Kerosene"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 4,
+        "question": "If a city has 1000 car commuters with baseline mortality rate of 10 per 10000 people and if relative risk of mortality due to PM2.5 exposure is 1.3, what will be the number of premature deaths in the city due to transport induced PM2.5 exposure?",
+        "options": [
+          "2109.55",
+          "2307.69",
+          "230.76",
+          "210.95"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 5,
+        "question": "Walking and cycling as daily activities directly do not _________________",
+        "options": [
+          "Benefit Health",
+          "Decrease Noise Pollution",
+          "Decrease Air Pollution",
+          "Increase Biodiversity"
+        ],
+        "correctOption": 3
+      },
+      {
+        "id": 6,
+        "question": "- Statement 1. Psychological and physical aspects of wellbeing are difficult to disentangle.\n- Statement 2. The physical damage during accidents can induce pain or distress and can lead to psychological disturbances",
+        "options": [
+          "Both statements 1 and 2 are true",
+          "Only statement 1 is true",
+          "Only statement 2 is true",
+          "Both statements 1 and 2 are false"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 7,
+        "question": "Noise pollution can be considered as indirect impact of transportation on environment.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 8,
+        "question": "The Noise level at commercial areas in night time should not exceed ________ dB(A) as per Central Pollution Control Board (India) standards.",
+        "options": [
+          "40.0",
+          "45.0",
+          "50.0",
+          "55.0"
+        ],
+        "correctOption": 3
+      },
+      {
+        "id": 9,
+        "question": "Application of 'ballast water' is related to the following mode of transportation",
+        "options": [
+          "Air",
+          "Railway",
+          "Road",
+          "Water"
+        ],
+        "correctOption": 3
+      },
+      {
+        "id": 10,
+        "question": "The CPCB Noise level standards in India have the potential for comparatively lesser Noise emissions when compared to the FHWA standards in the U.S.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctOption": 0
+      }
+    ]
+  },
+  "3": {
+    "title": "Week 3",
+    "description": "Urban and regional transport planning",
+    "questions": [
+      {
+        "id": 1,
+        "question": "World Bank adopted EIA process in the decade __________",
+        "options": [
+          "1960s",
+          "1970s",
+          "1980s",
+          "1990s"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 2,
+        "question": "Poor water quality of a river is an example of irreversible impact.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 3,
+        "question": "The Rio Earth Summit was held in Brazil in the year _____.",
+        "options": [
+          "1991",
+          "1992",
+          "1998",
+          "1999"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 4,
+        "question": "Establishing the area of study, factors for assessment for baseline studies are the most important outcomes of _________ stage of the Environmental Impact Assessment.",
+        "options": [
+          "Screening",
+          "Scoping",
+          "Monitoring",
+          "Public Participation"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 5,
+        "question": "Arrange the following stages of an Environmental Impact Assessment in the correct sequential order. Choose the correct answer from the codes given below:\n- (i) Impact assessment\n- (ii) Baseline data collection\n- (iii) Mitigation\n- (iv) Impact statement\n- (v) Follow-up\n\n",
+        "options": [
+          "(i) (ii) (iii) (v) (iv)",
+          "(ii) (i) (iii) (iv) (v)",
+          "(i) (iii) (ii) (iv) (v)",
+          "(i) (v) (iii) (ii) (iv)"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 6,
+        "question": "Terms of Reference (TOR) is the outcome of which of the following stage in EIA?",
+        "options": [
+          "Screening",
+          "Scoping",
+          "Monitoring",
+          "Public Participation"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 7,
+        "question": "- Statement 1: \"Area of direct influence\" of a project site is greater than the \"Net project area\".\n- Statement 2: The \"Total project area\" is greater than the \"Net project area\". Choose the correct options out of the following:",
+        "options": [
+          "Both statements are true",
+          "Only statement 1 is true",
+          "Statements 1 and 2 are false",
+          "Only statement 2 is true"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 8,
+        "question": "Impact Management Plans are often compulsory in the development of an EIA report.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 9,
+        "question": "Select the steps for the Mitigation process in the correct sequential order.",
+        "options": [
+          "Predict impacts -- Avoid -- Mitigate -- Restore -- Offset",
+          "Predict impacts -- Avoid -- Offset -- Mitigate -- Restore",
+          "Offset -- Predict impacts -- Avoid -- Mitigate -- Restore",
+          "Predict impacts -- Offset -- Avoid -- Mitigate -- Restore"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 10,
+        "question": "A new national highway under EIA draft notification 2020 will be considered under category _________.",
+        "options": [
+          "A",
+          "B",
+          "B1",
+          "B2"
+        ],
+        "correctOption": 0
+      }
+    ]
+  },
+  "4": {
+    "title": "Week 4",
+    "description": "Impacts on humans, flora and fauna, soil, water, air, climate and landscape",
+    "questions": [
+      {
+        "id": 1,
+        "question": "In European countries, member nations categorise project for EIA screening process in ___ no. of categories.",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "Screening process is not a part of EU's EIA process"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 2,
+        "question": "Which of the following is India's first high speed rail corridor project?",
+        "options": [
+          "Mumbai-Bangalore High Speed Rail project",
+          "Mumbai-Ahmedabad High Speed Rail project",
+          "Mumbai-Pune High Speed Rail project",
+          "Mumbai-Delhi High Speed Rail project"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 3,
+        "question": "\"SPV\" for a project stands for __________.",
+        "options": [
+          "Special Purpose Vehicle",
+          "Standard Purpose Vehicle",
+          "Standard Project Vehicle",
+          "Special Project Vehicle"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 4,
+        "question": "Which of the following is not a stakeholder in \"the public consultation\" process of Environmental Impact Assessment?",
+        "options": [
+          "Local NGOs",
+          "Local Banks",
+          "Local people",
+          "Local Environmentalists"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 5,
+        "question": "Which of the following is not a mitigation measure used for Slope stabilization in hilly roads?",
+        "options": [
+          "Hedge brush layer",
+          "Rock Anchoring",
+          "Hydro-seeding",
+          "Crash Barrier"
+        ],
+        "correctOption": 3
+      },
+      {
+        "id": 6,
+        "question": "Which of the following is not a mitigation measure used in roads for reducing accidents?",
+        "options": [
+          "Hazard markers",
+          "Raised Reflective Pavement Marker",
+          "Bamboo net plantation",
+          "Crash barriers"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 7,
+        "question": "Level of service 'E' for airport represents the service level as__________",
+        "options": [
+          "Inadequate comfort",
+          "Excellent service",
+          "Good comfort",
+          "Unacceptable"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 8,
+        "question": "As per EIA notification 2006, all airports comes under category ____ for EIA process.",
+        "options": [
+          "A",
+          "B",
+          "B1",
+          "B2"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 9,
+        "question": "According to the Impact Assessment Rating Matrix, if the Impact severity is \"high\" and the likelihood of impact is \"medium\", then the overall Impact is considered to be ____________.",
+        "options": [
+          "Negligible",
+          "Minor",
+          "Moderate",
+          "Major"
+        ],
+        "correctOption": 3
+      },
+      {
+        "id": 10,
+        "question": "The __________ is an imaginary flight path extending outwards from either side of the runway and generally up to 15^0 of the runway.",
+        "options": [
+          "Conical area",
+          "Cylindrical area",
+          "Funnel area",
+          "Helical area"
+        ],
+        "correctOption": 2
+      }
+    ]
+  },
+  "5": {
+    "title": "Week 5",
+    "description": "Establishment of baseline conditions w.r.t soil, water and air quality",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which of the following is not a part of the Sustainability approach for land use in Transport sector?",
+        "options": [
+          "Mixed land use",
+          "Transit oriented development",
+          "Low density development",
+          "Promoting Non-motorized transport"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 2,
+        "question": "In Sustainable transport planning approach, the land use should be done in a way such that it promotes non-motorized and public transport rather than prioritizing car and personal vehicles.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 3,
+        "question": "Road pattern of Central Delhi in India follows _______________.",
+        "options": [
+          "Grid/Block pattern",
+          "Star and Block pattern",
+          "Star and circular pattern",
+          "Hexagon pattern"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 4,
+        "question": "National TOD policy of India was released in the year __________.",
+        "options": [
+          "2011",
+          "2015",
+          "2017",
+          "2019"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 5,
+        "question": "The rebuild of an area/locality into a more affluent and well-developed neighbourhood is termed as ____________.",
+        "options": [
+          "Gentrification",
+          "Von Thunen model",
+          "SITAR planning",
+          "Garden city"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 6,
+        "question": "A city of 50 square km has a total 100 km long road network, what will be the Network density of the city?",
+        "options": [
+          "5000 per km",
+          "2 km per square km",
+          "0.5 per km",
+          "0.5 km per square km"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 7,
+        "question": "If there are 200 sections of road in the city (mentioned in question6), what would be the Eta index of the city?",
+        "options": [
+          "20000 square km",
+          "2 per km",
+          "0.005 per square km",
+          "0.5 km"
+        ],
+        "correctOption": 3
+      },
+      {
+        "id": 8,
+        "question": "Naya Raipur BRTS system is an example of __________.",
+        "options": [
+          "Greenfield TOD",
+          "Brownfield TOD",
+          "Sub-Urban TOD",
+          "None of these"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 9,
+        "question": "The walkshed area for a metro is ______ that of a Bus transit system.",
+        "options": [
+          "Equal To",
+          "Lower Than",
+          "Greater Than",
+          "Half"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 10,
+        "question": "Which of the following is not a barrier in implementing Transit Oriented Development?",
+        "options": [
+          "Balanced mix of uses and activities",
+          "Neglected urban design at the neighbourhood and street level",
+          "Inadequate policies, regulations and supporting mechanism",
+          "Financial constraints"
+        ],
+        "correctOption": 0
+      }
+    ]
+  },
+  "6": {
+    "title": "Week 6",
+    "description": "Noise, air and water pollution modelling",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which of the following best define the purpose of \"trip distribution\" in transport planning?",
+        "options": [
+          "Forecasts the travel demands for a specified area",
+          "Forecasts the number of trips between origin and destinations in each zones of study area",
+          "Assigns traffic to a predicted model",
+          "None of these"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 2,
+        "question": "If the size of a plot is 500 square feet with land coverage of 70%, and the floor area ratio (FAR) is 10, then the maximum number of floors allowed for construction is:",
+        "options": [
+          "7",
+          "14",
+          "21",
+          "28"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 3,
+        "question": "Which of the following is false with respect to \"transportation surveys\"?",
+        "options": [
+          "Voluminous and time consuming",
+          "Last stage in the formulation of a Transportation plan",
+          "Collects data on all factors influencing travel patterns",
+          "Cost involved is very high"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 4,
+        "question": "If land use of an area can be changed easily in terms of regulatory procedures, it can be termed as ____________.",
+        "options": [
+          "Hard land",
+          "Moderate land",
+          "Soft land",
+          "None of these"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 5,
+        "question": "Which of the following is not a sustainable transport planning solution?",
+        "options": [
+          "Park and Ride facility",
+          "Shared spaces",
+          "Uninterrupted bus lanes",
+          "Automobile-centered planning"
+        ],
+        "correctOption": 3
+      },
+      {
+        "id": 6,
+        "question": "A city with a population of 1000 generates 2700 trips per day. What would be the trip rate of that city?",
+        "options": [
+          "2.1",
+          "2.4",
+          "2.7",
+          "2.9"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 7,
+        "question": "Which of the following is true in case of transit oriented development approach?",
+        "options": [
+          "Station area > Community zone > Transition zone",
+          "Community zone > Station area > Transition zone",
+          "Station area > Transition zone > Community zone",
+          "Transition zone > Community zone > Station area"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 8,
+        "question": "The traditional 4-step transport planning process in the correct sequential order is:",
+        "options": [
+          "Trip distribution-Trip generation-Modal split-Trip assignment",
+          "Trip generation-Trip distribution-Modal split-Trip assignment",
+          "Trip distribution-Trip assignment -Modal split -Trip generation",
+          "Trip generation-Trip assignment -Modal split -Trip distribution"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 9,
+        "question": "The line used to represent the physical or natural barriers of a study area for the purpose of transport planning surveys is termed as:",
+        "options": [
+          "Internal cordon",
+          "External cordon",
+          "Screen line",
+          "None of these"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 10,
+        "question": "Which of the following option is correct in case of transit oriented development (TOD) of Delhi city?",
+        "options": [
+          "Greenfield Urban TOD",
+          "Greenfield Sub-urban TOD",
+          "Brownfield Sub-urban TOD",
+          "Brownfield Urban TOD"
+        ],
+        "correctOption": 3
+      }
+    ]
+  },
+  "7": {
+    "title": "Week 7",
+    "description": "Modelling of impacts and scenario-based analysis",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Life cycle assessment is a form of environmental impact assessment",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 2,
+        "question": "Vertical obstruction in the form of a rounded and raised area of pavement is known as __________.",
+        "options": [
+          "Speed table",
+          "Speed humps",
+          "Bulb out",
+          "Speed curb"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 3,
+        "question": "Which one of the following is not a strategy for transportation system management?",
+        "options": [
+          "Discouraging car pooling",
+          "Internal shuttle in city centre",
+          "Exclusive bus lanes",
+          "Cordon pricing"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 4,
+        "question": "'Well to Wheel' is a type of system boundary for Life Cycle Assessment (LCA).",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 5,
+        "question": "The \"Guidance on conducting the life cycle impact assessment (LCIA) phase of LCA\" pertains to ________.",
+        "options": [
+          "ISO 14041",
+          "ISO 14042",
+          "ISO 14043",
+          "ISO 14044"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 6,
+        "question": "Which of the following is also known as raised crosswalk if placed at a pedestrian crossing?",
+        "options": [
+          "Speed humps",
+          "Speed table",
+          "Speed bumps",
+          "Bulb-out"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 7,
+        "question": "Which of the following is not an objective of Life cycle assessment?",
+        "options": [
+          "Product improvement",
+          "Product cost reduction",
+          "Decision making",
+          "Environment planning"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 8,
+        "question": "\"Walking as a transport mode has minimum negative impact on the environment\".",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 9,
+        "question": "\"Prohibiting the right/left turning movements of vehicles is a strategy used for transportation management\".",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 10,
+        "question": "Which one of the following options is not involved in LCA-based product marketing?",
+        "options": [
+          "Environmental claim",
+          "User-friendly",
+          "Eco-labelling",
+          "Product declaration"
+        ],
+        "correctOption": 1
+      }
+    ]
+  },
+  "8": {
+    "title": "Week 8",
+    "description": "Assessment of potential project impacts including indirect, cumulative and synergistic impacts",
+    "questions": [
+      {
+        "id": 1,
+        "question": "In Material flow analysis (MFA), the substances or mixtures of substances that have economic values assigned by markets is called __________.",
+        "options": [
+          "Material",
+          "Stock",
+          "Goods",
+          "Inputs"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 2,
+        "question": "The Material Flow Analysis (MFA) concept equation is:",
+        "options": [
+          "Output = Input - Stock",
+          "2×Stock = Input + Output",
+          "Input = Output - Stock",
+          "Stock = 4×(Input + Output)"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 3,
+        "question": "During Material Flow Analysis (MFA) study of a system, 100 litres of fuel is consumed. The fuel has 3 grams of lead per litre. If, after combustion, 180 grams of lead was found in the exhaust emission, the stock in the system (in grams) will be (considering vehicle as system boundary)",
+        "options": [
+          "120",
+          "300",
+          "180",
+          "100"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 4,
+        "question": "In Material Flow Analysis (MFA), \"Mass per unit of time per unit of area\" is called __________.",
+        "options": [
+          "Flow",
+          "Flux",
+          "Import/export",
+          "Input/output"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 5,
+        "question": "For circular economy, which of the following is not correct?",
+        "options": [
+          "'take-make-consume-recycle' pattern",
+          "'take-make-consume-throw away' pattern",
+          "'take-make-consume-reuse' pattern",
+          "'take-make-consume-refurbish' pattern"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 6,
+        "question": "Linear economic model is based on 'higher the resource consumption-bigger the economy & related activities'.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 7,
+        "question": "Vehicle scrappage policy by Government of India was introduced in the year ___________.",
+        "options": [
+          "2019",
+          "2020",
+          "2021",
+          "2022"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 8,
+        "question": "The discipline that studies nature's best ideas and then imitates these designs and processes to solve human problems is called ___________.",
+        "options": [
+          "Blue economy",
+          "Biomimicry",
+          "Industrial ecology",
+          "Performance economy"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 9,
+        "question": "The Butterfly diagram for a circular economy represents the __________ cycles.",
+        "options": [
+          "biological and technical",
+          "biological and ecological",
+          "economic and technical",
+          "economic and environmental"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 10,
+        "question": "Which of the following is not a transport emission estimation model?",
+        "options": [
+          "Emission factor (EMFAC) model",
+          "MOBILE model",
+          "AERMOD model",
+          "International Vehicle Emissions (IVE) model"
+        ],
+        "correctOption": 2
+      }
+    ]
+  },
+  "9": {
+    "title": "Week 9",
+    "description": "Decision support systems for EIA of transport infrastructures",
+    "questions": [
+      {
+        "id": 1,
+        "question": "The Calculation of Road Traffic Noise (CoRTN) model was developed by the Transport and Road Research Laboratory and the Department of Transport of _________.",
+        "options": [
+          "United States of America",
+          "United Kingdom",
+          "Germany",
+          "Japan"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 2,
+        "question": "Which of the following is an example of lagrangian/eulerian dispersion model?",
+        "options": [
+          "CALINE4",
+          "HIWAY2",
+          "CALPUFF",
+          "GRAL"
+        ],
+        "correctOption": 3
+      },
+      {
+        "id": 3,
+        "question": "According to the NMPB-2008-Routes traffic noise emission model, the heavy goods vehicles are categorized with gross vehicle weight (GVW)__________.",
+        "options": [
+          ">= 3.5 tonnes",
+          ">= 6.5 tonnes",
+          ">= 9.5 tonnes",
+          ">= 15 tonnes"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 4,
+        "question": "Number of non-attainment cities under National Clean Air Programme (NCAP) are:",
+        "options": [
+          "31",
+          "56",
+          "122",
+          "138"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 5,
+        "question": "Which of the following is not true with respect to the Vehicular Air Pollution Inventory (VAPI) Model?",
+        "options": [
+          "Based on emission factors",
+          "Designed for developing countries",
+          "Has incorporated climatic correction factors",
+          "Has incorporated the speed related correction factor"
+        ],
+        "correctOption": 3
+      },
+      {
+        "id": 6,
+        "question": "Vehicular emissions are considered as line source of emissions?",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 7,
+        "question": "The Paris agreement's central aim is to strengthen the global response to the threat of climate change by keeping the global temperature rise this century well below ________ degree Celsius above pre-industrial levels.",
+        "options": [
+          "1.0",
+          "2.0",
+          "3.0",
+          "4.0"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 8,
+        "question": "- Statement 1: Green transition: Investments must accelerate the decarbonisation of all aspects of our economy.\n- Statement 2: Green economy: making societies and people more resilient through a transition that is fair to all and leaves no one behind. Which of the following options is/are true?",
+        "options": [
+          "Only Statement 1 is true",
+          "Only Statement 2 is true",
+          "Both statements 1 and 2 are true",
+          "Both statements 1 and 2 are false"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 9,
+        "question": "The National Clean Air Programme (NCAP) targets to achieve 20%-30% reduction in the particulate matter concentrations in non-attainment cities by the year _________, considering _________ as the base year.",
+        "options": [
+          "2020 & 2015",
+          "2028 & 2015",
+          "2028 & 2017",
+          "2024 & 2017"
+        ],
+        "correctOption": 3
+      },
+      {
+        "id": 10,
+        "question": "Which one of the following institutions ordered for the deregistration of diesel vehicles older than 10 years in the National capital territory of Delhi?",
+        "options": [
+          "Supreme Court",
+          "National Green Tribunal",
+          "Central Pollution Control Board",
+          "Ministry of Environment, Forest and Climate Change"
+        ],
+        "correctOption": 1
+      }
+    ]
+  },
+  "10": {
+    "title": "Week 10",
+    "description": "Abatement measures",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which of the following is the most energy efficient vehicle in terms of conversion efficiency of electricity?",
+        "options": [
+          "Internal combustion engine vehicles",
+          "Fuel cell vehicles",
+          "Battery electric vehicles",
+          "All options are equally efficient"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 2,
+        "question": "Which of the following is not a fossil fuel for transportation?",
+        "options": [
+          "Methanol from natural gas",
+          "Methanol from biomass",
+          "Electricity from renewable sources",
+          "Ethanol"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 3,
+        "question": "Which fuel can be produced from water through hydrolysis using electricity?",
+        "options": [
+          "Biodiesel",
+          "Ethanol",
+          "Methanol",
+          "Hydrogen"
+        ],
+        "correctOption": 3
+      },
+      {
+        "id": 4,
+        "question": "Which of the following is a non-fossil fuel alternative for transportation?",
+        "options": [
+          "Methanol from natural gas",
+          "Methanol from biomass",
+          "Compressed natural gas",
+          "Butanol"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 5,
+        "question": "Losses in electric vehicles occurs due to cooling device that controls the battery temperature and energy consumption by the battery management system.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 6,
+        "question": "Which of the following is not a requirement of an ideal electric vehicle battery?",
+        "options": [
+          "High energy capacity",
+          "Good charge retention",
+          "Made of expensive materials",
+          "High peak power output"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 7,
+        "question": "The well to tank emissions for electric vehicles mainly depend on ____________.",
+        "options": [
+          "Battery efficiency",
+          "Electricity source",
+          "Vehicle maintenance",
+          "Vehicle traction system"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 8,
+        "question": "TransMilenio, Bogota is an example of __________.",
+        "options": [
+          "Metro transit system",
+          "Light rail transit system",
+          "Bus rapid transit system",
+          "Rapid rail transit system"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 9,
+        "question": "Which of the following is a component of Hyperloop?",
+        "options": [
+          "Capsule",
+          "Tube",
+          "Propulsion",
+          "All of these"
+        ],
+        "correctOption": 3
+      },
+      {
+        "id": 10,
+        "question": "Hyperloop is based on the principle of ___________.",
+        "options": [
+          "Fuel based propulsion",
+          "Electro-magnetic levitation",
+          "Photochemical reaction",
+          "Fuel combustion"
+        ],
+        "correctOption": 1
+      }
+    ]
+  },
+  "11": {
+    "title": "Week 11",
+    "description": "Sustainable transportation systems",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which of the following is not a direct impact of metros when compared to automobiles?",
+        "options": [
+          "Fuel savings",
+          "Reduction in air pollution",
+          "Increased congestion on streets",
+          "Reduced accidents on streets"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 2,
+        "question": "The first metro rail system in the world to earn carbon credits for reducing GHG emissions is __________.",
+        "options": [
+          "Tokyo metro, Japan",
+          "Shanghai metro, China",
+          "Delhi metro, India",
+          "Seoul metro, South Korea"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 3,
+        "question": "Which of the following options is being used to make metro system more environmentally friendly and sustainable?",
+        "options": [
+          "Congestion pricing",
+          "Clean development mechanism",
+          "Sky Rail System",
+          "Prohibited right/left turning"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 4,
+        "question": "____________ is not a sustainability rating system for airports.",
+        "options": [
+          "BRREAM",
+          "NAAC",
+          "LEED",
+          "ENVISION"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 5,
+        "question": "____________ is the sustainability rating system for airports developed by the US Green Building Council.",
+        "options": [
+          "BREAM",
+          "NAAC",
+          "LEED",
+          "ENVISION"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 6,
+        "question": "The vessels used for transporting wheeled cargo such as cars, motorcycles and other vehicles through the inland waterways are called ____________.",
+        "options": [
+          "Maersk Triple-E Class",
+          "Ro-Ro vessels",
+          "Dry-bulk cargo",
+          "None of these"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 7,
+        "question": "________________ is also known as the West coast canal in India.",
+        "options": [
+          "National waterway-1",
+          "National waterway-2",
+          "National waterway-3",
+          "National waterway-4"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 8,
+        "question": "The National Waterway-2 is located on __________ river.",
+        "options": [
+          "Ganga",
+          "Brahmaputra",
+          "Periyar",
+          "Cauvery"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 9,
+        "question": "According to the concept of sustainable transport systems, __________ how much priority should be given to public transport, walking and non-motorized vehicles?",
+        "options": [
+          "Lowest",
+          "Highest",
+          "Equal",
+          "Does not matter"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 10,
+        "question": "Which city is known as \"the city of cyclists\"?",
+        "options": [
+          "Brussels",
+          "London",
+          "Copenhagen",
+          "Frankfurt"
+        ],
+        "correctOption": 2
+      }
+    ]
+  },
+  "12": {
+    "title": "Week 12",
+    "description": "Case studies of highway, railway and airport projects, OpenLCA tool for life Cycle Assessment, STAN for material flow analysis",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which of the following options is not an application of the OpenLCA tool?",
+        "options": [
+          "Carbon footprint",
+          "Water footprint",
+          "Life cycle costing",
+          "Project viability"
+        ],
+        "correctOption": 3
+      },
+      {
+        "id": 2,
+        "question": "The STAN tool for Material Flow Analysis was published by _________.",
+        "options": [
+          "University of Nottingham",
+          "Yale University",
+          "Technical University, Wien",
+          "University of Chicago"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 3,
+        "question": "The first edition of the SDG India Index (Index 1.0) was launched in the year __________",
+        "options": [
+          "2017",
+          "2018",
+          "2019",
+          "2020"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 4,
+        "question": "The sustainable indicators should not be __________.",
+        "options": [
+          "Easily measurable",
+          "Acceptable to all",
+          "Influenced by any interest groups",
+          "Easily understandable"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 5,
+        "question": "A measure of how much of earth's resources we are using is called ecological footprint?",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 6,
+        "question": "OECD stands for ____________________.",
+        "options": [
+          "Organisation for Economic Co-ordination and Development",
+          "Organisation for Ecological Co-operation and Development",
+          "Organisation for Ecological Co-ordination and Development",
+          "Organisation for Economic Co-operation and Development"
+        ],
+        "correctOption": 3
+      },
+      {
+        "id": 7,
+        "question": "In STAN for material flow analysis, the \"box made of dash lines\" represent ____________.",
+        "options": [
+          "Process",
+          "Flow",
+          "System boundary",
+          "Text box"
+        ],
+        "correctOption": 2
+      },
+      {
+        "id": 8,
+        "question": "In STAN for material flow analysis, \"broad and dark lines\" represent __________.",
+        "options": [
+          "Higher flow",
+          "Input flows",
+          "Output flows",
+          "System boundary"
+        ],
+        "correctOption": 0
+      },
+      {
+        "id": 9,
+        "question": "The Environmental Performance Index (EPI) was developed by ___________?",
+        "options": [
+          "University of Nottingham",
+          "Yale University",
+          "Technical University, Wien",
+          "University of Chicago"
+        ],
+        "correctOption": 1
+      },
+      {
+        "id": 10,
+        "question": "International institutions which provide assistance as grants/loan to developing countries are called Multilateral development banks.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctOption": 0
+      }
+    ]
+  }
+}
