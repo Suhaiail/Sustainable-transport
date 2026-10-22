@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NPTEL Practice - Sustainable Transportation Systems (2026)</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232b57d6'/%3E%3Cpath d='M9 23V9h3l8 10V9h3v14h-3l-8-10v10z' fill='white'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Top Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-content">
+      <a href="#" class="brand-link" id="navHomeLink">
+        <span class="brand-text">NPTEL Practice</span>
+      </a>
+      <div class="nav-right">
+        <span class="course-code-badge">NOC26_CE107</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-wrapper">
+    <!-- VIEW 1: Week Selection / Course Home -->
+    <section id="courseView" class="view active-view">
+      <div class="view-header">
+        <div class="breadcrumbs">
+          <span class="crumb active">Courses</span>
+        </div>
+        <div class="title-row">
+          <div>
+            <h1 class="course-title">Sustainable Transportation Systems &middot; 2026</h1>
+            <p class="course-subtitle">NOC26_CE107 &middot; select one or more weeks, then generate a quiz.</p>
+          </div>
+          <div class="header-actions">
+            <button id="selectAllBtn" class="btn btn-secondary">Select all</button>
+          </div>
+        </div>
+
+        <!-- Wrong Answers Actions (conditionally shown if mistakes exist) -->
+        <div id="wrongAnswersBar" class="wrong-answers-bar hidden">
+          <button id="practiceWrongBtn" class="btn btn-danger-pill">
+            Practice wrong answers <span id="wrongCountBadge" class="badge">0</span>
+          </button>
+          <button id="viewWrongBtn" class="btn btn-subtle">
+            View wrong answers
+          </button>
+          <button id="clearWrongBtn" class="btn btn-ghost" title="Reset wrong answers">&times;</button>
+        </div>
+      </div>
+
+      <!-- 12-Week Grid -->
+      <div class="weeks-grid" id="weeksGrid">
+        <!-- Rendered dynamically via JavaScript -->
+      </div>
+
+      <!-- Sticky Floating Action Bar for Generating Quiz -->
+      <div id="bottomActionBar" class="bottom-action-bar hidden">
+        <div class="action-bar-content">
+          <div class="left-controls">
+            <!-- Mode Selector -->
+            <div class="mode-toggle-group" role="group" aria-label="Quiz Mode">
+              <button type="button" class="mode-btn active" data-mode="practice">Practice</button>
+              <button type="button" class="mode-btn" data-mode="quiz">Quiz</button>
+              <button type="button" class="mode-btn" data-mode="mock">Mock Test</button>
+              <button type="button" class="info-btn" id="modeInfoBtn" title="Mode details" aria-label="Mode details">i</button>
+            </div>
+
+            <!-- Toggles -->
+            <label class="toggle-control" title="Shuffle questions in random order">
+              <input type="checkbox" id="shuffleQuestionsToggle" checked>
+              <span class="toggle-slider"></span>
+              <span class="toggle-label">Shuffle question order</span>
+            </label>
+
+            <label class="toggle-control" title="Shuffle the choices for each question">
+              <input type="checkbox" id="shuffleAnswersToggle">
+              <span class="toggle-slider"></span>
+              <span class="toggle-label">Shuffle answer order</span>
+            </label>
+          </div>
+
+          <div class="right-controls">
+            <span class="selection-summary" id="selectionSummary">0 weeks selected &middot; 0 questions</span>
+            <button id="clearSelectionBtn" class="btn btn-secondary">Clear</button>
+            <button id="generateQuizBtn" class="btn btn-primary">Generate quiz</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 2: Quiz Runner View -->
+    <section id="quizView" class="view hidden">
+      <div class="quiz-container">
+        <!-- Quiz Breadcrumb & Header -->
+        <div class="quiz-top-nav">
+          <div class="breadcrumbs">
+            <a href="#" id="quizExitLink" class="crumb-link">Courses / Sustainable Transportation Systems &middot; 2026</a>
+          </div>
+          <div class="quiz-header-row">
+            <div class="quiz-title-wrap">
+              <h1 class="quiz-title" id="quizHeaderTitle">Mixed quiz</h1>
+              <span class="badge mode-badge" id="quizHeaderModeBadge">Mock Test</span>
+            </div>
+            <button id="quitQuizBtn" class="btn btn-ghost" title="Exit to home">Exit quiz</button>
+          </div>
+          <p class="quiz-meta-info" id="quizHeaderSubtitle">Weeks 2, 3 &middot; 20 questions, shuffled</p>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-bar-wrap">
+          <div class="progress-bar-fill" id="quizProgressBar"></div>
+        </div>
+
+        <!-- Question Card -->
+        <div class="question-container">
+          <div class="question-header">
+            <span class="question-counter" id="questionCounter">Question 1 of 20</span>
+          </div>
+
+          <div class="week-tag-badge" id="questionWeekTag">WEEK 1</div>
+
+          <!-- Question Text (supports markdown, tables, images) -->
+          <div class="question-text" id="questionText"></div>
+
+          <div class="question-instruction" id="questionInstruction">Select one answer</div>
+
+          <!-- Options List -->
+          <div class="options-list" id="optionsList"></div>
+
+          <!-- Practice Mode Feedback Banner (if in practice mode) -->
+          <div id="practiceFeedback" class="practice-feedback hidden"></div>
+
+          <!-- Bottom Quiz Action Buttons -->
+          <div class="quiz-footer-actions">
+            <button id="prevQuestionBtn" class="btn btn-secondary hidden">&larr; Previous</button>
+            <div class="spacer"></div>
+            <div class="next-action-wrap">
+              <button id="nextQuestionBtn" class="btn btn-primary">Next question</button>
+              <span class="key-hint">Press Enter</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 3: Results & Review View -->
+    <section id="resultsView" class="view hidden">
+      <div class="results-container">
+        <div class="quiz-top-nav">
+          <div class="breadcrumbs">
+            <a href="#" id="resultsExitLink" class="crumb-link">Courses / Sustainable Transportation Systems &middot; 2026</a>
+          </div>
+          <div class="quiz-header-row">
+            <div class="quiz-title-wrap">
+              <h1 class="quiz-title" id="resultsTitle">Mixed quiz</h1>
+              <span class="badge mode-badge" id="resultsModeBadge">Mock Test</span>
+            </div>
+          </div>
+          <p class="quiz-meta-info" id="resultsSubtitle">Weeks 2, 3 &middot; 20 questions, shuffled</p>
+        </div>
+
+        <!-- Score Banner -->
+        <div class="score-card">
+          <div class="score-numbers">
+            <span class="score-fraction" id="scoreFraction">7 / 20</span>
+            <span class="score-percent" id="scorePercent">35%</span>
+          </div>
+          <p class="score-subtext" id="scoreReviewCount">13 questions to review.</p>
+
+          <div class="results-actions-row">
+            <button id="retryMissedBtn" class="btn btn-primary">Retry missed (13)</button>
+            <button id="newShuffleBtn" class="btn btn-secondary">New shuffle</button>
+            <button id="chooseDifferentWeeksBtn" class="btn btn-secondary">Choose different weeks</button>
+          </div>
+        </div>
+
+        <!-- Review Section -->
+        <div class="review-section">
+          <h2 class="review-heading">Review</h2>
+          <div class="review-items-list" id="reviewItemsList">
+            <!-- Questions with your answer vs correct answer rendered here -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 4: View Wrong Answers Modal/Overlay -->
+    <div id="wrongAnswersModal" class="modal-overlay hidden">
+      <div class="modal-card">
+        <div class="modal-header">
+          <h2 class="modal-title">Saved Wrong Answers (<span id="modalWrongCount">0</span>)</h2>
+          <button id="closeModalBtn" class="btn-close" aria-label="Close modal">&times;</button>
+        </div>
+        <p class="modal-desc">These are questions you answered incorrectly in previous quiz attempts. Practice them to master the concepts.</p>
+        
+        <div class="modal-actions">
+          <button id="modalPracticeBtn" class="btn btn-primary">Practice these questions</button>
+          <button id="modalClearBtn" class="btn btn-danger-pill">Clear all saved mistakes</button>
+        </div>
+
+        <div class="modal-body" id="modalWrongList">
+          <!-- Rendered dynamically -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Mode Info Modal -->
+    <div id="modeInfoModal" class="modal-overlay hidden">
+      <div class="modal-card modal-small">
+        <div class="modal-header">
+          <h2 class="modal-title">Quiz Modes Explained</h2>
+          <button id="closeModeInfoBtn" class="btn-close" aria-label="Close">&times;</button>
+        </div>
+        <div class="modal-body mode-info-body">
+          <div class="mode-info-item">
+            <h3><span class="badge mode-badge practice-badge">Practice</span></h3>
+            <p>Immediate feedback after selecting any option. Reveals whether your answer was correct or wrong instantly, highlighting the correct answer.</p>
+          </div>
+          <div class="mode-info-item">
+            <h3><span class="badge mode-badge quiz-badge">Quiz</span></h3>
+            <p>Standard quiz format. Make your choices and navigate forward and backward freely. Results and detailed review are shown at the end.</p>
+          </div>
+          <div class="mode-info-item">
+            <h3><span class="badge mode-badge mock-badge">Mock Test</span></h3>
+            <p>Simulates real test conditions. Test your full readiness across all selected weeks with comprehensive performance analytics and answer review at the end.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Load Data script (works with file:// and http://) -->
+  <script src="data/questions.js"></script>
+  <!-- Load App script -->
+  <script src="app.js"></script>
+</body>
+</html>
