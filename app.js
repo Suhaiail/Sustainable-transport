@@ -1,6 +1,6 @@
 /**
- * Sustainable Transportation Systems (NOC26_CE107)
- * Modern NPTEL Practice Web Application
+ * Sustainable Transportation Systems (NOC26_CE107 & 105107210)
+ * Modern NPTEL Practice Web Application & Study Material Platform
  */
 
 (function () {
@@ -8,6 +8,7 @@
 
   // --- STATE ---
   let courseData = null;
+  let studyData = null;
   let selectedWeeks = new Set();
   let currentMode = 'practice'; // 'practice' | 'quiz' | 'mock'
   let shuffleQuestions = true;
@@ -24,14 +25,33 @@
     results: []
   };
 
+  // Active Flashcards State
+  let flashcardsList = [];
+  let currentFlashcardIndex = 0;
+  let isCardFlipped = false;
+
+  // Active Study Subview
+  let currentStudySubmode = 'lectures'; // 'lectures' | 'flashcards' | 'glossary'
+  let studySearchQuery = '';
+  let selectedWeekFilter = 'all';
+
   const STORAGE_KEY_WRONG = 'nptel_wrong_answers_NOC26_CE107';
 
   // --- DOM ELEMENTS ---
   const views = {
     course: document.getElementById('courseView'),
+    study: document.getElementById('studyView'),
     quiz: document.getElementById('quizView'),
     results: document.getElementById('resultsView')
   };
+
+  // Nav Elements
+  const tabQuizView = document.getElementById('tabQuizView');
+  const tabStudyView = document.getElementById('tabStudyView');
+  const navHomeLink = document.getElementById('navHomeLink');
+  const goToStudyBtn = document.getElementById('goToStudyBtn');
+  const studyToQuizBtn = document.getElementById('studyToQuizBtn');
+  const studyBackLink = document.getElementById('studyBackLink');
 
   // Course Home Elements
   const weeksGrid = document.getElementById('weeksGrid');
@@ -59,6 +79,31 @@
   const modalPracticeBtn = document.getElementById('modalPracticeBtn');
   const modalClearBtn = document.getElementById('modalClearBtn');
   const modalWrongList = document.getElementById('modalWrongList');
+
+  // Study Material Elements
+  const studyTabBtns = document.querySelectorAll('.study-tab-btn');
+  const lecturesSubView = document.getElementById('lecturesContent');
+  const flashcardsSubView = document.getElementById('flashcardsContent');
+  const glossarySubView = document.getElementById('glossaryContent');
+  const studySearchInput = document.getElementById('studySearchInput');
+  const clearSearchBtn = document.getElementById('clearSearchBtn');
+  const weekFilterSelect = document.getElementById('weekFilterSelect');
+  const toggleExpandAllBtn = document.getElementById('toggleExpandAllBtn');
+  const studyWeeksAccordion = document.getElementById('studyWeeksAccordion');
+  const glossaryGrid = document.getElementById('glossaryGrid');
+
+  // Flashcard Elements
+  const activeFlashcard = document.getElementById('activeFlashcard');
+  const flashcardCounter = document.getElementById('flashcardCounter');
+  const flashcardCategoryBadge = document.getElementById('flashcardCategoryBadge');
+  const cardFrontText = document.getElementById('cardFrontText');
+  const cardBackText = document.getElementById('cardBackText');
+  const cardPageRef = document.getElementById('cardPageRef');
+  const prevFlashcardBtn = document.getElementById('prevFlashcardBtn');
+  const flipFlashcardBtn = document.getElementById('flipFlashcardBtn');
+  const nextFlashcardBtn = document.getElementById('nextFlashcardBtn');
+  const shuffleFlashcardsBtn = document.getElementById('shuffleFlashcardsBtn');
+  const flashcardCountBadge = document.getElementById('flashcardCountBadge');
 
   // Quiz Elements
   const quizExitLink = document.getElementById('quizExitLink');
@@ -89,28 +134,40 @@
   const chooseDifferentWeeksBtn = document.getElementById('chooseDifferentWeeksBtn');
   const reviewItemsList = document.getElementById('reviewItemsList');
 
-  const navHomeLink = document.getElementById('navHomeLink');
-
   // --- INITIALIZATION ---
   async function init() {
     setupEventListeners();
-    await loadCourseData();
+    await loadData();
     renderWeeksGrid();
+    renderStudyMaterial();
+    renderGlossary();
+    initFlashcards();
     updateWrongAnswersBar();
   }
 
-  async function loadCourseData() {
+  async function loadData() {
+    // 1. Course Questions Data
     if (window.COURSE_DATA) {
       courseData = window.COURSE_DATA;
-      return;
+    } else {
+      try {
+        const res = await fetch('data/questions.json');
+        if (res.ok) courseData = await res.json();
+      } catch (err) {
+        console.warn('Could not load questions.json via fetch:', err);
+      }
     }
-    try {
-      const res = await fetch('data/questions.json');
-      if (!res.ok) throw new Error('Network response not ok');
-      courseData = await res.json();
-    } catch (err) {
-      console.error('Failed to load course data:', err);
-      weeksGrid.innerHTML = '<div style="color: #ef4444; padding: 20px;">Failed to load course questions. Please ensure data/questions.js is present.</div>';
+
+    // 2. Study Material Data
+    if (window.STUDY_DATA) {
+      studyData = window.STUDY_DATA;
+    } else {
+      try {
+        const res = await fetch('data/study_material.json');
+        if (res.ok) studyData = await res.json();
+      } catch (err) {
+        console.warn('Could not load study_material.json via fetch:', err);
+      }
     }
   }
 
@@ -125,6 +182,20 @@
         views[name].classList.remove('active-view');
       }
     });
+
+    // Update top nav tabs
+    if (viewName === 'course' || viewName === 'quiz' || viewName === 'results') {
+      tabQuizView.classList.add('active');
+      tabQuizView.setAttribute('aria-selected', 'true');
+      tabStudyView.classList.remove('active');
+      tabStudyView.setAttribute('aria-selected', 'false');
+    } else if (viewName === 'study') {
+      tabStudyView.classList.add('active');
+      tabStudyView.setAttribute('aria-selected', 'true');
+      tabQuizView.classList.remove('active');
+      tabQuizView.setAttribute('aria-selected', 'false');
+    }
+
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
@@ -133,7 +204,6 @@
     if (!text) return '';
     let html = text;
 
-    // Normalize newlines
     html = html.replace(/\r\n/g, '\n');
 
     // Parse Markdown Tables
@@ -148,7 +218,6 @@
 
       for (let i = 0; i < lines.length; i++) {
         const line = lines[i].trim();
-        // check separator line like |---|---|
         if (line.match(/^\|[\s\-:\|]+\|$/)) {
           isHeader = false;
           continue;
@@ -243,7 +312,6 @@
       selectedWeeks.add(weekNum);
     }
 
-    // Update specific card UI
     const card = weeksGrid.querySelector(`[data-week="${weekNum}"]`);
     if (card) {
       card.classList.toggle('selected', selectedWeeks.has(weekNum));
@@ -269,6 +337,201 @@
       bottomActionBar.classList.add('hidden');
       selectAllBtn.textContent = 'Select all';
     }
+  }
+
+  // --- STUDY MATERIAL RENDERING ---
+  function renderStudyMaterial() {
+    if (!studyData || !studyData.weeks) return;
+    studyWeeksAccordion.innerHTML = '';
+
+    const query = studySearchQuery.toLowerCase().trim();
+    let hasMatches = false;
+
+    for (let w = 1; w <= 12; w++) {
+      if (selectedWeekFilter !== 'all' && selectedWeekFilter !== String(w)) {
+        continue;
+      }
+
+      const weekInfo = studyData.weeks[w];
+      if (!weekInfo) continue;
+
+      // Filter lectures by search query
+      const matchingLectures = weekInfo.lectures.filter(lec => {
+        if (!query) return true;
+        const haystack = `${lec.number} ${lec.title} ${lec.overview} ${lec.core_topics.join(' ')} ${lec.exam_point}`.toLowerCase();
+        return haystack.includes(query);
+      });
+
+      const weekMatches = !query || weekInfo.title.toLowerCase().includes(query) || weekInfo.summary.toLowerCase().includes(query) || matchingLectures.length > 0;
+
+      if (!weekMatches && matchingLectures.length === 0) continue;
+      hasMatches = true;
+
+      const lecturesToRender = query ? matchingLectures : weekInfo.lectures;
+
+      const weekCard = document.createElement('div');
+      weekCard.className = `week-study-card ${query ? 'expanded' : (w === 1 ? 'expanded' : '')}`;
+      weekCard.dataset.week = w;
+
+      const takeawaysHtml = weekInfo.key_takeaways.map(t => `<li>${escapeHtml(t)}</li>`).join('');
+
+      let lecturesHtml = '';
+      lecturesToRender.forEach(lec => {
+        const topicsHtml = lec.core_topics.map(t => `<li>${escapeHtml(t)}</li>`).join('');
+        lecturesHtml += `
+          <div class="lecture-item">
+            <div class="lecture-top-row">
+              <span class="lec-num-badge">${lec.number}</span>
+              <span class="lec-page-ref">${lec.page_range}</span>
+            </div>
+            <h4 class="lecture-item-title">${escapeHtml(lec.title)}</h4>
+            <p class="lecture-item-overview">${escapeHtml(lec.overview)}</p>
+            <ul class="core-topics-list">
+              ${topicsHtml}
+            </ul>
+            <div class="exam-point-tip">&#9733; <strong>Exam Highlight:</strong> ${escapeHtml(lec.exam_point)}</div>
+          </div>
+        `;
+      });
+
+      weekCard.innerHTML = `
+        <div class="week-study-header">
+          <div class="week-study-title-wrap">
+            <span class="week-badge-pill">WEEK ${w}</span>
+            <h3 class="week-study-title">${escapeHtml(weekInfo.title)}</h3>
+          </div>
+          <div class="week-study-actions">
+            <button type="button" class="btn-pill-action practice-week-btn" data-week="${w}">
+              Practice Week ${w} MCQs
+            </button>
+            <svg class="accordion-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </div>
+        </div>
+        <div class="week-study-body">
+          <div class="week-overview-box">
+            <div class="overview-heading">Week Overview &amp; Key Milestones</div>
+            <p class="overview-text">${escapeHtml(weekInfo.summary)}</p>
+            <div class="takeaways-heading">Core Learning Points</div>
+            <ul class="takeaways-list">
+              ${takeawaysHtml}
+            </ul>
+          </div>
+          <div class="lectures-list">
+            ${lecturesHtml || '<p style="color:var(--text-muted); padding:10px;">No matching lectures found for this search filter.</p>'}
+          </div>
+        </div>
+      `;
+
+      // Accordion toggle on header click
+      const header = weekCard.querySelector('.week-study-header');
+      header.addEventListener('click', (e) => {
+        if (e.target.closest('.practice-week-btn')) return;
+        weekCard.classList.toggle('expanded');
+      });
+
+      // Quick Practice button inside header
+      const practiceBtn = weekCard.querySelector('.practice-week-btn');
+      practiceBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        launchSingleWeekQuiz(w);
+      });
+
+      studyWeeksAccordion.appendChild(weekCard);
+    }
+
+    if (!hasMatches) {
+      studyWeeksAccordion.innerHTML = `
+        <div style="text-align: center; padding: 40px; color: var(--text-muted);">
+          <p style="font-size: 16px; margin-bottom: 8px;">No matching lecture notes found for "<strong>${escapeHtml(query)}</strong>"</p>
+          <button class="btn btn-secondary" id="resetSearchEmptyBtn">Clear Search</button>
+        </div>
+      `;
+      const btn = document.getElementById('resetSearchEmptyBtn');
+      if (btn) btn.addEventListener('click', clearStudySearch);
+    }
+  }
+
+  function launchSingleWeekQuiz(weekNum) {
+    selectedWeeks.clear();
+    selectedWeeks.add(weekNum);
+    renderWeeksGrid();
+    generateQuiz();
+  }
+
+  function clearStudySearch() {
+    studySearchQuery = '';
+    studySearchInput.value = '';
+    clearSearchBtn.classList.add('hidden');
+    renderStudyMaterial();
+  }
+
+  // --- GLOSSARY RENDERING ---
+  function renderGlossary() {
+    if (!studyData || !studyData.glossary) return;
+    glossaryGrid.innerHTML = '';
+
+    studyData.glossary.forEach(item => {
+      const card = document.createElement('div');
+      card.className = 'glossary-card';
+      card.innerHTML = `
+        <div class="glossary-card-top">
+          <span class="glossary-term">${escapeHtml(item.term)}</span>
+          <span class="glossary-full">${escapeHtml(item.full)}</span>
+        </div>
+        <p class="glossary-desc">${escapeHtml(item.desc)}</p>
+      `;
+      glossaryGrid.appendChild(card);
+    });
+  }
+
+  // --- INTERACTIVE FLASHCARDS ---
+  function initFlashcards() {
+    if (!studyData || !studyData.flashcards) return;
+    flashcardsList = [...studyData.flashcards];
+    currentFlashcardIndex = 0;
+    isCardFlipped = false;
+    flashcardCountBadge.textContent = flashcardsList.length;
+    renderCurrentFlashcard();
+  }
+
+  function renderCurrentFlashcard() {
+    if (flashcardsList.length === 0) return;
+    const card = flashcardsList[currentFlashcardIndex];
+
+    isCardFlipped = false;
+    activeFlashcard.classList.remove('flipped');
+
+    flashcardCounter.textContent = `Card ${currentFlashcardIndex + 1} of ${flashcardsList.length}`;
+    flashcardCategoryBadge.textContent = card.category || `Week ${card.week}`;
+
+    cardFrontText.textContent = card.front;
+    cardBackText.textContent = card.back;
+    cardPageRef.textContent = card.pages ? `NPTEL Course Book ${card.pages}` : `Week ${card.week} · ${card.lecture || ''}`;
+  }
+
+  function toggleFlipCard() {
+    isCardFlipped = !isCardFlipped;
+    activeFlashcard.classList.toggle('flipped', isCardFlipped);
+  }
+
+  function nextFlashcard() {
+    if (flashcardsList.length === 0) return;
+    currentFlashcardIndex = (currentFlashcardIndex + 1) % flashcardsList.length;
+    renderCurrentFlashcard();
+  }
+
+  function prevFlashcard() {
+    if (flashcardsList.length === 0) return;
+    currentFlashcardIndex = (currentFlashcardIndex - 1 + flashcardsList.length) % flashcardsList.length;
+    renderCurrentFlashcard();
+  }
+
+  function shuffleFlashcardsDeck() {
+    flashcardsList = shuffleArray(flashcardsList);
+    currentFlashcardIndex = 0;
+    renderCurrentFlashcard();
   }
 
   // --- LOCAL STORAGE: WRONG ANSWERS ---
@@ -371,7 +634,6 @@
 
     if (pool.length === 0) return;
 
-    // Process questions (shuffling question order & answer options if requested)
     let processed = pool.map(item => {
       let finalOptions = item.options.map((text, idx) => ({
         text,
@@ -382,7 +644,6 @@
         finalOptions = shuffleArray(finalOptions);
       }
 
-      // Find new index of the correct option
       const newCorrectIndex = finalOptions.findIndex(o => o.originalIndex === item.correctOption);
 
       return {
@@ -398,7 +659,6 @@
       processed = shuffleArray(processed);
     }
 
-    // Determine titles & subtitles
     let title = 'Mixed quiz';
     let subtitle = '';
 
@@ -453,19 +713,15 @@
     const total = activeQuiz.questions.length;
     const q = activeQuiz.questions[qIndex];
 
-    // Progress bar
     const percent = ((qIndex + 1) / total) * 100;
     quizProgressBar.style.width = `${percent}%`;
 
-    // Counter & tags
     questionCounter.textContent = `Question ${qIndex + 1} of ${total}`;
     questionWeekTag.textContent = `WEEK ${q.weekNum}`;
 
-    // Question content
     questionText.innerHTML = renderMarkdown(q.question);
     questionInstruction.textContent = 'Select one answer';
 
-    // Options rendering
     optionsList.innerHTML = '';
     practiceFeedback.classList.add('hidden');
     practiceFeedback.innerHTML = '';
@@ -480,7 +736,6 @@
       const isSelected = q.userAnswer === idx;
       if (isSelected) optCard.classList.add('selected');
 
-      // Feedback classes for Practice mode
       if (isLocked) {
         if (idx === q.correctOption) {
           optCard.classList.add('option-correct');
@@ -505,19 +760,16 @@
       optionsList.appendChild(optCard);
     });
 
-    // Feedback message for practice mode
     if (isLocked) {
       showPracticeFeedback(q.userAnswer === q.correctOption);
     }
 
-    // Previous button visibility
     if (qIndex > 0) {
       prevQuestionBtn.classList.remove('hidden');
     } else {
       prevQuestionBtn.classList.add('hidden');
     }
 
-    // Next / Finish button label
     if (qIndex === total - 1) {
       nextQuestionBtn.textContent = 'Finish quiz';
     } else {
@@ -539,7 +791,6 @@
       }
       renderCurrentQuestion();
     } else {
-      // In quiz/mock mode, update active card selection visually
       const cards = optionsList.querySelectorAll('.option-card');
       cards.forEach((c, idx) => {
         c.classList.toggle('selected', idx === optionIndex);
@@ -561,7 +812,6 @@
   function handleNextQuestion() {
     const q = activeQuiz.questions[activeQuiz.currentIndex];
 
-    // In Quiz or Mock mode, check if answer was given; if wrong, track it
     if (activeQuiz.mode !== 'practice' && q.isAnswered) {
       if (q.userAnswer !== q.correctOption) {
         saveWrongAnswer(q);
@@ -612,7 +862,6 @@
     const percentage = Math.round((correctCount / total) * 100);
     const missedCount = total - correctCount;
 
-    // Header info
     resultsTitle.textContent = activeQuiz.title;
     resultsSubtitle.textContent = activeQuiz.subtitle;
 
@@ -629,7 +878,6 @@
       badge.classList.add('mock-badge');
     }
 
-    // Score Banner
     scoreFraction.textContent = `${correctCount} / ${total}`;
     scorePercent.textContent = `${percentage}%`;
 
@@ -642,9 +890,7 @@
       retryMissedBtn.classList.add('hidden');
     }
 
-    // Render Review items
     renderReviewList(reviewItems);
-
     showView('results');
   }
 
@@ -739,6 +985,16 @@
 
   // --- EVENT LISTENERS ---
   function setupEventListeners() {
+    // Nav view tabs
+    tabQuizView.addEventListener('click', () => showView('course'));
+    tabStudyView.addEventListener('click', () => showView('study'));
+    goToStudyBtn.addEventListener('click', () => showView('study'));
+    studyToQuizBtn.addEventListener('click', () => showView('course'));
+    studyBackLink.addEventListener('click', (e) => {
+      e.preventDefault();
+      showView('course');
+    });
+
     // Brand link / exit links to course home
     navHomeLink.addEventListener('click', (e) => {
       e.preventDefault();
@@ -863,9 +1119,53 @@
       }
     });
 
+    // Study Material Submode Tabs
+    studyTabBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        studyTabBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const mode = btn.dataset.studymode;
+        currentStudySubmode = mode;
+
+        lecturesSubView.classList.toggle('hidden', mode !== 'lectures');
+        flashcardsSubView.classList.toggle('hidden', mode !== 'flashcards');
+        glossarySubView.classList.toggle('hidden', mode !== 'glossary');
+      });
+    });
+
+    // Study Search
+    studySearchInput.addEventListener('input', (e) => {
+      studySearchQuery = e.target.value;
+      clearSearchBtn.classList.toggle('hidden', !studySearchQuery);
+      renderStudyMaterial();
+    });
+
+    clearSearchBtn.addEventListener('click', clearStudySearch);
+
+    // Week Filter Select
+    weekFilterSelect.addEventListener('change', (e) => {
+      selectedWeekFilter = e.target.value;
+      renderStudyMaterial();
+    });
+
+    // Expand / Collapse all toggle
+    let allExpanded = false;
+    toggleExpandAllBtn.addEventListener('click', () => {
+      allExpanded = !allExpanded;
+      const cards = studyWeeksAccordion.querySelectorAll('.week-study-card');
+      cards.forEach(c => c.classList.toggle('expanded', allExpanded));
+      toggleExpandAllBtn.textContent = allExpanded ? 'Collapse all' : 'Expand all';
+    });
+
+    // Flashcard Actions
+    activeFlashcard.addEventListener('click', toggleFlipCard);
+    flipFlashcardBtn.addEventListener('click', toggleFlipCard);
+    nextFlashcardBtn.addEventListener('click', nextFlashcard);
+    prevFlashcardBtn.addEventListener('click', prevFlashcard);
+    shuffleFlashcardsBtn.addEventListener('click', shuffleFlashcardsDeck);
+
     // Keyboard Shortcuts
     window.addEventListener('keydown', (e) => {
-      // Don't intercept when modal is open or when typing in input
       if (!wrongAnswersModal.classList.contains('hidden') || !modeInfoModal.classList.contains('hidden')) {
         if (e.key === 'Escape') {
           wrongAnswersModal.classList.add('hidden');
@@ -889,6 +1189,18 @@
           handleNextQuestion();
         } else if (e.key === 'ArrowLeft') {
           handlePrevQuestion();
+        }
+      }
+
+      // Flashcards shortcuts when active
+      if (!views.study.classList.contains('hidden') && currentStudySubmode === 'flashcards') {
+        if (e.key === ' ' || e.key === 'Enter') {
+          e.preventDefault();
+          toggleFlipCard();
+        } else if (e.key === 'ArrowRight') {
+          nextFlashcard();
+        } else if (e.key === 'ArrowLeft') {
+          prevFlashcard();
         }
       }
     });

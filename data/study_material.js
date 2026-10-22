@@ -1,0 +1,1861 @@
+window.STUDY_DATA = {
+  "course": {
+    "code": "NOC26_CE107",
+    "course_id": "105107210",
+    "name": "Sustainable Transportation Systems",
+    "instructor": "Prof. Bhola Ram Gurjar",
+    "department": "Department of Civil Engineering",
+    "institution": "IIT Roorkee",
+    "source_book": "NPTEL Course Book 105107210.pdf (1839 pages, 60 lectures)",
+    "total_lectures": 60,
+    "total_weeks": 12
+  },
+  "weeks": {
+    "1": {
+      "week": 1,
+      "title": "Introduction to Environmental Impact Assessment (EIA) and Transportation Systems",
+      "summary": "Explores the historical evolution of mobility from walking and animal traction to modern high-speed transit. Introduces the definition of sustainable development from the Brundtland Report (1987), the 17 UN SDGs, and India's transportation profile.",
+      "key_takeaways": [
+        "Walking is the primitive and most environmentally friendly mode of transport.",
+        "Sustainable development meets present needs without compromising the ability of future generations to meet their own needs (WCED, 1987).",
+        "Rio Earth Summit took place in Brazil in 1992, catalyzing Agenda 21.",
+        "The 17 Sustainable Development Goals (SDGs) were established by the UN in 2015.",
+        "PURA (Provision of Urban Amenities to Rural Areas) was conceived by Dr. A.P.J. Abdul Kalam.",
+        "Two-wheelers account for over 70% of registered motor vehicles in India."
+      ],
+      "lectures": [
+        {
+          "id": 1,
+          "week": 1,
+          "number": "Lec 01",
+          "title": "Introduction to Transportation Systems - I",
+          "page_range": "pp. 4–32",
+          "overview": "Lecture 1 explores introduction to transportation systems - i in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Introduction to Transportation Systems - I",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 1 assessments regarding Introduction to Transportation Systems - I."
+        },
+        {
+          "id": 2,
+          "week": 1,
+          "number": "Lec 02",
+          "title": "Introduction to Transportation Systems - II",
+          "page_range": "pp. 33–58",
+          "overview": "Lecture 2 explores introduction to transportation systems - ii in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Introduction to Transportation Systems - II",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 1 assessments regarding Introduction to Transportation Systems - II."
+        },
+        {
+          "id": 3,
+          "week": 1,
+          "number": "Lec 03",
+          "title": "Concept of Sustainability",
+          "page_range": "pp. 59–88",
+          "overview": "Lecture 3 explores concept of sustainability in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Concept of Sustainability",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 1 assessments regarding Concept of Sustainability."
+        },
+        {
+          "id": 4,
+          "week": 1,
+          "number": "Lec 04",
+          "title": "Current Scenario of Transportation in India",
+          "page_range": "pp. 89–116",
+          "overview": "Lecture 4 explores current scenario of transportation in india in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Current Scenario of Transportation in India",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 1 assessments regarding Current Scenario of Transportation in India."
+        }
+      ]
+    },
+    "2": {
+      "week": 2,
+      "title": "Land-Use Plans, Zoning Schemes, and Baseline Environmental Impacts",
+      "summary": "Details climate change drivers, greenhouse gases, and the multi-dimensional impacts of transport infrastructure on air, soil, water quality, human health, flora and fauna, and acoustic environments.",
+      "key_takeaways": [
+        "Transport is responsible for nearly 23-25% of global energy-related CO2 emissions.",
+        "Psychological and physical wellbeing are interdependent; accident trauma causes both bodily injury and mental distress.",
+        "Primary transport air pollutants include PM2.5, PM10, NOx, CO, and non-methane volatile organic compounds (NMVOCs).",
+        "Noise pollution above 65 dB(A) causes chronic cardiovascular stress and sleep disturbance.",
+        "Linear transport corridors cause severe habitat fragmentation, edge effects, and barrier effects on wildlife."
+      ],
+      "lectures": [
+        {
+          "id": 5,
+          "week": 2,
+          "number": "Lec 05",
+          "title": "Climate Change: Indicators and Impacts",
+          "page_range": "pp. 117–144",
+          "overview": "Lecture 5 explores climate change: indicators and impacts in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Climate Change: Indicators and Impacts",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 2 assessments regarding Climate Change: Indicators and Impacts."
+        },
+        {
+          "id": 6,
+          "week": 2,
+          "number": "Lec 06",
+          "title": "Impacts of Transportation Systems - I (Air Quality)",
+          "page_range": "pp. 145–167",
+          "overview": "Lecture 6 explores impacts of transportation systems - i (air quality) in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Impacts of Transportation Systems - I (Air Quality)",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 2 assessments regarding Impacts of Transportation Systems - I (Air Quality)."
+        },
+        {
+          "id": 7,
+          "week": 2,
+          "number": "Lec 07",
+          "title": "Impacts of Transportation Systems - II (Health & Noise)",
+          "page_range": "pp. 168–198",
+          "overview": "Lecture 7 explores impacts of transportation systems - ii (health & noise) in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Impacts of Transportation Systems - II (Health & Noise)",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 2 assessments regarding Impacts of Transportation Systems - II (Health & Noise)."
+        },
+        {
+          "id": 8,
+          "week": 2,
+          "number": "Lec 08",
+          "title": "Impacts of Transportation Systems - III (Ecology, Soil, Water)",
+          "page_range": "pp. 199–228",
+          "overview": "Lecture 8 explores impacts of transportation systems - iii (ecology, soil, water) in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Impacts of Transportation Systems - III (Ecology, Soil, Water)",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 2 assessments regarding Impacts of Transportation Systems - III (Ecology, Soil, Water)."
+        },
+        {
+          "id": 9,
+          "week": 2,
+          "number": "Lec 09",
+          "title": "Impacts of Transportation Systems - IV (Social & Economic)",
+          "page_range": "pp. 229–261",
+          "overview": "Lecture 9 explores impacts of transportation systems - iv (social & economic) in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Impacts of Transportation Systems - IV (Social & Economic)",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 2 assessments regarding Impacts of Transportation Systems - IV (Social & Economic)."
+        }
+      ]
+    },
+    "3": {
+      "week": 3,
+      "title": "Urban & Regional Transport Planning and EIA Foundations",
+      "summary": "Introduces Environmental Impact Assessment (EIA) principles, administrative processes, screening, scoping, baseline surveys, and regulatory notifications in India under the MoEFCC.",
+      "key_takeaways": [
+        "EIA was formally pioneered under the US National Environmental Policy Act (NEPA) in 1969.",
+        "In India, EIA notifications were enacted in 1994 and revised comprehensively in 2006 under the Environment (Protection) Act, 1986.",
+        "Category A projects require mandatory central environmental clearance by MoEFCC; Category B projects are handled by State SEIAA.",
+        "Scoping determines the specific Terms of Reference (TOR) for the Environmental Impact Assessment study.",
+        "Public hearings / consultations ensure stakeholder engagement and environmental justice before project clearance."
+      ],
+      "lectures": [
+        {
+          "id": 10,
+          "week": 3,
+          "number": "Lec 10",
+          "title": "Impacts of Transportation Systems - V (Energy & Fossil Fuels)",
+          "page_range": "pp. 262–295",
+          "overview": "Lecture 10 explores impacts of transportation systems - v (energy & fossil fuels) in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Impacts of Transportation Systems - V (Energy & Fossil Fuels)",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 3 assessments regarding Impacts of Transportation Systems - V (Energy & Fossil Fuels)."
+        },
+        {
+          "id": 11,
+          "week": 3,
+          "number": "Lec 11",
+          "title": "Introduction to Environment Impact Assessment (EIA)",
+          "page_range": "pp. 296–333",
+          "overview": "Lecture 11 explores introduction to environment impact assessment (eia) in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Introduction to Environment Impact Assessment (EIA)",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 3 assessments regarding Introduction to Environment Impact Assessment (EIA)."
+        },
+        {
+          "id": 12,
+          "week": 3,
+          "number": "Lec 12",
+          "title": "EIA Processes - I (Screening, Scoping, Baseline)",
+          "page_range": "pp. 334–369",
+          "overview": "Lecture 12 explores eia processes - i (screening, scoping, baseline) in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of EIA Processes - I (Screening, Scoping, Baseline)",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 3 assessments regarding EIA Processes - I (Screening, Scoping, Baseline)."
+        },
+        {
+          "id": 13,
+          "week": 3,
+          "number": "Lec 13",
+          "title": "EIA Processes - II (Mitigation, EMP, Consultation)",
+          "page_range": "pp. 370–403",
+          "overview": "Lecture 13 explores eia processes - ii (mitigation, emp, consultation) in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of EIA Processes - II (Mitigation, EMP, Consultation)",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 3 assessments regarding EIA Processes - II (Mitigation, EMP, Consultation)."
+        },
+        {
+          "id": 14,
+          "week": 3,
+          "number": "Lec 14",
+          "title": "Methodologies of EIA (Matrices, Checklists, GIS)",
+          "page_range": "pp. 404–436",
+          "overview": "Lecture 14 explores methodologies of eia (matrices, checklists, gis) in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Methodologies of EIA (Matrices, Checklists, GIS)",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 3 assessments regarding Methodologies of EIA (Matrices, Checklists, GIS)."
+        },
+        {
+          "id": 15,
+          "week": 3,
+          "number": "Lec 15",
+          "title": "EIA Process in India (1994 & 2006 Notifications)",
+          "page_range": "pp. 437–474",
+          "overview": "Lecture 15 explores eia process in india (1994 & 2006 notifications) in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of EIA Process in India (1994 & 2006 Notifications)",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 3 assessments regarding EIA Process in India (1994 & 2006 Notifications)."
+        }
+      ]
+    },
+    "4": {
+      "week": 4,
+      "title": "Global EIA Practices and Sectoral Case Studies",
+      "summary": "Analyzes real-world EIA execution across diverse transport megaprojects including national expressways, dedicated freight railway corridors (DFC), international airports, and port terminals.",
+      "key_takeaways": [
+        "Highways require dedicated animal underpasses and noise barriers through eco-sensitive zones.",
+        "Rail electrification dramatically lowers localized emissions compared to diesel traction corridors.",
+        "Greenfield airport EIAs focus heavily on noise contouring, bird-hit hazards, and stormwater runoff containment.",
+        "Port and terminal developments must assess marine dredging, siltation, ballast water treatment, and mangrove conservation."
+      ],
+      "lectures": [
+        {
+          "id": 16,
+          "week": 4,
+          "number": "Lec 16",
+          "title": "Global Practices in EIA Process",
+          "page_range": "pp. 475–499",
+          "overview": "Lecture 16 explores global practices in eia process in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Global Practices in EIA Process",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 4 assessments regarding Global Practices in EIA Process."
+        },
+        {
+          "id": 17,
+          "week": 4,
+          "number": "Lec 17",
+          "title": "EIA Case Study - I: Highway Projects",
+          "page_range": "pp. 500–524",
+          "overview": "Lecture 17 explores eia case study - i: highway projects in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of EIA Case Study - I: Highway Projects",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 4 assessments regarding EIA Case Study - I: Highway Projects."
+        },
+        {
+          "id": 18,
+          "week": 4,
+          "number": "Lec 18",
+          "title": "EIA Case Study - II: Dedicated Freight Corridor & Railways",
+          "page_range": "pp. 525–549",
+          "overview": "Lecture 18 explores eia case study - ii: dedicated freight corridor & railways in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of EIA Case Study - II: Dedicated Freight Corridor & Railways",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 4 assessments regarding EIA Case Study - II: Dedicated Freight Corridor & Railways."
+        },
+        {
+          "id": 19,
+          "week": 4,
+          "number": "Lec 19",
+          "title": "EIA Case Study - III: Airport Projects",
+          "page_range": "pp. 550–572",
+          "overview": "Lecture 19 explores eia case study - iii: airport projects in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of EIA Case Study - III: Airport Projects",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 4 assessments regarding EIA Case Study - III: Airport Projects."
+        },
+        {
+          "id": 20,
+          "week": 4,
+          "number": "Lec 20",
+          "title": "EIA Case Study - IV: Port & Marine Terminals",
+          "page_range": "pp. 573–598",
+          "overview": "Lecture 20 explores eia case study - iv: port & marine terminals in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of EIA Case Study - IV: Port & Marine Terminals",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 4 assessments regarding EIA Case Study - IV: Port & Marine Terminals."
+        }
+      ]
+    },
+    "5": {
+      "week": 5,
+      "title": "Spatial Dynamics, Land Use Planning, and Transit-Oriented Development (TOD)",
+      "summary": "Examines the reciprocal relationship between urban spatial structure and transportation. Focuses on master plans, zoning laws, and the principles of Transit Oriented Development (TOD).",
+      "key_takeaways": [
+        "Land use determines trip generation patterns, while transport accessibility shapes land value and development density.",
+        "TOD centers around high-density, mixed-use communities located within a 5-10 minute walk (500–800 m) of transit stations.",
+        "The 3Ds of TOD: Density, Diversity, and Design (later expanded to 8 principles: Walk, Cycle, Connect, Transit, Mix, Densify, Compact, Shift).",
+        "Incentivized Floor Area Ratio (FAR) and reduced parking minimums encourage transit patronage."
+      ],
+      "lectures": [
+        {
+          "id": 21,
+          "week": 5,
+          "number": "Lec 21",
+          "title": "EIA Case Study - V: Urban Metro Rail",
+          "page_range": "pp. 599–630",
+          "overview": "Lecture 21 explores eia case study - v: urban metro rail in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of EIA Case Study - V: Urban Metro Rail",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 5 assessments regarding EIA Case Study - V: Urban Metro Rail."
+        },
+        {
+          "id": 22,
+          "week": 5,
+          "number": "Lec 22",
+          "title": "Introduction to Land Use & Spatial Dynamics",
+          "page_range": "pp. 631–653",
+          "overview": "Lecture 22 explores introduction to land use & spatial dynamics in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Introduction to Land Use & Spatial Dynamics",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 5 assessments regarding Introduction to Land Use & Spatial Dynamics."
+        },
+        {
+          "id": 23,
+          "week": 5,
+          "number": "Lec 23",
+          "title": "Land Use Planning and Zoning Schemes",
+          "page_range": "pp. 654–681",
+          "overview": "Lecture 23 explores land use planning and zoning schemes in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Land Use Planning and Zoning Schemes",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 5 assessments regarding Land Use Planning and Zoning Schemes."
+        },
+        {
+          "id": 24,
+          "week": 5,
+          "number": "Lec 24",
+          "title": "Transit Oriented Development (TOD): Concepts & 3Ds",
+          "page_range": "pp. 682–708",
+          "overview": "Lecture 24 explores transit oriented development (tod): concepts & 3ds in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Transit Oriented Development (TOD): Concepts & 3Ds",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 5 assessments regarding Transit Oriented Development (TOD): Concepts & 3Ds."
+        },
+        {
+          "id": 25,
+          "week": 5,
+          "number": "Lec 25",
+          "title": "TOD Implementation & Pedestrian Infrastructure",
+          "page_range": "pp. 709–735",
+          "overview": "Lecture 25 explores tod implementation & pedestrian infrastructure in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of TOD Implementation & Pedestrian Infrastructure",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 5 assessments regarding TOD Implementation & Pedestrian Infrastructure."
+        }
+      ]
+    },
+    "6": {
+      "week": 6,
+      "title": "TOD Case Studies and the 4-Step Traditional Planning Model",
+      "summary": "Reviews TOD implementations across Delhi Metro, Belgrade, and Naya Raipur (Atal Nagar). Explains the traditional 4-step transport planning sequence alongside the modern Avoid-Shift-Improve (ASI) framework.",
+      "key_takeaways": [
+        "Avoid-Shift-Improve (ASI) is the cornerstone paradigm of sustainable mobility.",
+        "The 4-Step Model: (1) Trip Generation, (2) Trip Distribution (e.g. Gravity Model), (3) Modal Split / Mode Choice (Logit model), (4) Traffic Assignment (User Equilibrium).",
+        "Traditional transport planning tended to be 'predict and provide', whereas sustainable planning is 'vision and validate'.",
+        "Naya Raipur was planned with dedicated BRT corridors and integrated non-motorized transport (NMT) spines."
+      ],
+      "lectures": [
+        {
+          "id": 26,
+          "week": 6,
+          "number": "Lec 26",
+          "title": "TOD Case Study - I: Delhi Metro Rail Corridor",
+          "page_range": "pp. 736–755",
+          "overview": "Lecture 26 explores tod case study - i: delhi metro rail corridor in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of TOD Case Study - I: Delhi Metro Rail Corridor",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 6 assessments regarding TOD Case Study - I: Delhi Metro Rail Corridor."
+        },
+        {
+          "id": 27,
+          "week": 6,
+          "number": "Lec 27",
+          "title": "TOD Case Study - II: Belgrade, Serbia",
+          "page_range": "pp. 756–784",
+          "overview": "Lecture 27 explores tod case study - ii: belgrade, serbia in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of TOD Case Study - II: Belgrade, Serbia",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 6 assessments regarding TOD Case Study - II: Belgrade, Serbia."
+        },
+        {
+          "id": 28,
+          "week": 6,
+          "number": "Lec 28",
+          "title": "TOD Case Study - III: Naya Raipur (Atal Nagar)",
+          "page_range": "pp. 785–811",
+          "overview": "Lecture 28 explores tod case study - iii: naya raipur (atal nagar) in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of TOD Case Study - III: Naya Raipur (Atal Nagar)",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 6 assessments regarding TOD Case Study - III: Naya Raipur (Atal Nagar)."
+        },
+        {
+          "id": 29,
+          "week": 6,
+          "number": "Lec 29",
+          "title": "Introduction to Sustainable Transport Planning & ASI",
+          "page_range": "pp. 812–844",
+          "overview": "Lecture 29 explores introduction to sustainable transport planning & asi in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Introduction to Sustainable Transport Planning & ASI",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 6 assessments regarding Introduction to Sustainable Transport Planning & ASI."
+        },
+        {
+          "id": 30,
+          "week": 6,
+          "number": "Lec 30",
+          "title": "Traditional Transport Planning (4-Step Model)",
+          "page_range": "pp. 845–879",
+          "overview": "Lecture 30 explores traditional transport planning (4-step model) in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Traditional Transport Planning (4-Step Model)",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 6 assessments regarding Traditional Transport Planning (4-Step Model)."
+        }
+      ]
+    },
+    "7": {
+      "week": 7,
+      "title": "Contemporary Planning, Travel Demand Management (TDM), and Life Cycle Assessment (LCA)",
+      "summary": "Explores Travel Demand Management (TDM) tools, activity-based modeling, and introduces the ISO 14040/14044 standard for Life Cycle Assessment across vehicular systems.",
+      "key_takeaways": [
+        "TDM measures include congestion pricing (Singapore, London), high-occupancy vehicle (HOV) lanes, and parking pricing.",
+        "LCA evaluates environmental burdens from 'cradle to grave' across all life stages.",
+        "Four mandatory LCA phases per ISO 14040: (1) Goal and Scope Definition, (2) Life Cycle Inventory (LCI), (3) Life Cycle Impact Assessment (LCIA), (4) Interpretation.",
+        "The functional unit provides a reference to which all input and output flows are mathematically normalized (e.g., 1 passenger-km)."
+      ],
+      "lectures": [
+        {
+          "id": 31,
+          "week": 7,
+          "number": "Lec 31",
+          "title": "Contemporary Planning: Activity-Based Approaches",
+          "page_range": "pp. 880–921",
+          "overview": "Lecture 31 explores contemporary planning: activity-based approaches in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Contemporary Planning: Activity-Based Approaches",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 7 assessments regarding Contemporary Planning: Activity-Based Approaches."
+        },
+        {
+          "id": 32,
+          "week": 7,
+          "number": "Lec 32",
+          "title": "Transport Demand Management (TDM) Strategies",
+          "page_range": "pp. 922–958",
+          "overview": "Lecture 32 explores transport demand management (tdm) strategies in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Transport Demand Management (TDM) Strategies",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 7 assessments regarding Transport Demand Management (TDM) Strategies."
+        },
+        {
+          "id": 33,
+          "week": 7,
+          "number": "Lec 33",
+          "title": "Life Cycle Assessment (LCA): Introduction & ISO 14040",
+          "page_range": "pp. 959–990",
+          "overview": "Lecture 33 explores life cycle assessment (lca): introduction & iso 14040 in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Life Cycle Assessment (LCA): Introduction & ISO 14040",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 7 assessments regarding Life Cycle Assessment (LCA): Introduction & ISO 14040."
+        },
+        {
+          "id": 34,
+          "week": 7,
+          "number": "Lec 34",
+          "title": "Life Cycle Assessment: Theory, Inventory & Impact",
+          "page_range": "pp. 991–1020",
+          "overview": "Lecture 34 explores life cycle assessment: theory, inventory & impact in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Life Cycle Assessment: Theory, Inventory & Impact",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 7 assessments regarding Life Cycle Assessment: Theory, Inventory & Impact."
+        },
+        {
+          "id": 35,
+          "week": 7,
+          "number": "Lec 35",
+          "title": "LCA Case Study: Vehicle & Fuel Systems",
+          "page_range": "pp. 1021–1046",
+          "overview": "Lecture 35 explores lca case study: vehicle & fuel systems in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of LCA Case Study: Vehicle & Fuel Systems",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 7 assessments regarding LCA Case Study: Vehicle & Fuel Systems."
+        }
+      ]
+    },
+    "8": {
+      "week": 8,
+      "title": "Material Flow Analysis (MFA), Circular Economy, and Transport Emissions Modelling",
+      "summary": "Teaches Material Flow Analysis (MFA) based on the law of conservation of mass. Covers circular economy paradigms in the vehicle fleet and the basics of transport emissions inventory calculation.",
+      "key_takeaways": [
+        "MFA is governed by the mass balance principle: Inputs = Outputs + Stock Changes (dm/dt = Σ m_in - Σ m_out).",
+        "Circular economy transitions from linear 'take-make-dispose' to closed loops (reduce, reuse, remanufacture, recycle).",
+        "End-of-life vehicle (ELV) recycling recovers valuable metals (steel, aluminium, copper, lithium, cobalt) and prevents hazardous leakage.",
+        "Emissions = Activity Data (vehicle-km travelled) × Emission Factor (g/km) × Fuel Consumption Factor."
+      ],
+      "lectures": [
+        {
+          "id": 36,
+          "week": 8,
+          "number": "Lec 36",
+          "title": "Material Flow Analysis (MFA): Mass Balance Principles",
+          "page_range": "pp. 1047–1072",
+          "overview": "Lecture 36 explores material flow analysis (mfa): mass balance principles in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Material Flow Analysis (MFA): Mass Balance Principles",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 8 assessments regarding Material Flow Analysis (MFA): Mass Balance Principles."
+        },
+        {
+          "id": 37,
+          "week": 8,
+          "number": "Lec 37",
+          "title": "Material Flow Analysis: Transport Case Study",
+          "page_range": "pp. 1073–1099",
+          "overview": "Lecture 37 explores material flow analysis: transport case study in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Material Flow Analysis: Transport Case Study",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 8 assessments regarding Material Flow Analysis: Transport Case Study."
+        },
+        {
+          "id": 38,
+          "week": 8,
+          "number": "Lec 38",
+          "title": "Concept of Circular Economy & 3R/9R Principles",
+          "page_range": "pp. 1100–1135",
+          "overview": "Lecture 38 explores concept of circular economy & 3r/9r principles in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Concept of Circular Economy & 3R/9R Principles",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 8 assessments regarding Concept of Circular Economy & 3R/9R Principles."
+        },
+        {
+          "id": 39,
+          "week": 8,
+          "number": "Lec 39",
+          "title": "Circular Economy in Transport Sector & ELVs",
+          "page_range": "pp. 1136–1161",
+          "overview": "Lecture 39 explores circular economy in transport sector & elvs in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Circular Economy in Transport Sector & ELVs",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 8 assessments regarding Circular Economy in Transport Sector & ELVs."
+        },
+        {
+          "id": 40,
+          "week": 8,
+          "number": "Lec 40",
+          "title": "Modelling of Transport Emissions - I: Principles & Factors",
+          "page_range": "pp. 1162–1208",
+          "overview": "Lecture 40 explores modelling of transport emissions - i: principles & factors in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Modelling of Transport Emissions - I: Principles & Factors",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 8 assessments regarding Modelling of Transport Emissions - I: Principles & Factors."
+        }
+      ]
+    },
+    "9": {
+      "week": 9,
+      "title": "Emissions Dispersion, Acoustic Modelling, and National Policies",
+      "summary": "Covers line-source atmospheric dispersion (CALINE4, Gaussian plume models), traffic noise prediction models (CORTN), and key policy instruments including NUTP, NCAP, and BS-VI standards.",
+      "key_takeaways": [
+        "CALINE4 is a Gaussian line-source dispersion model developed by Caltrans specifically for highway microenvironments.",
+        "Traffic noise decays at approximately 3 dB per doubling of distance for a line source over hard ground.",
+        "Bharat Stage VI (BS-VI) standards cut particulate matter emissions from diesel passenger vehicles by over 80% and NOx by 70%.",
+        "India's National Clean Air Programme (NCAP) targets 131 non-attainment cities to reduce particulate air pollution."
+      ],
+      "lectures": [
+        {
+          "id": 41,
+          "week": 9,
+          "number": "Lec 41",
+          "title": "Modelling of Transport Emissions - II: Driving Cycles & Models",
+          "page_range": "pp. 1209–1242",
+          "overview": "Lecture 41 explores modelling of transport emissions - ii: driving cycles & models in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Modelling of Transport Emissions - II: Driving Cycles & Models",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 9 assessments regarding Modelling of Transport Emissions - II: Driving Cycles & Models."
+        },
+        {
+          "id": 42,
+          "week": 9,
+          "number": "Lec 42",
+          "title": "Dispersion Models: CALINE4 & Gaussian Plumes",
+          "page_range": "pp. 1243–1282",
+          "overview": "Lecture 42 explores dispersion models: caline4 & gaussian plumes in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Dispersion Models: CALINE4 & Gaussian Plumes",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 9 assessments regarding Dispersion Models: CALINE4 & Gaussian Plumes."
+        },
+        {
+          "id": 43,
+          "week": 9,
+          "number": "Lec 43",
+          "title": "Traffic Noise Emission & Barrier Models",
+          "page_range": "pp. 1283–1309",
+          "overview": "Lecture 43 explores traffic noise emission & barrier models in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Traffic Noise Emission & Barrier Models",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 9 assessments regarding Traffic Noise Emission & Barrier Models."
+        },
+        {
+          "id": 44,
+          "week": 9,
+          "number": "Lec 44",
+          "title": "Environmental Policies, NUTP & BS-VI Emission Norms",
+          "page_range": "pp. 1310–1351",
+          "overview": "Lecture 44 explores environmental policies, nutp & bs-vi emission norms in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Environmental Policies, NUTP & BS-VI Emission Norms",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 9 assessments regarding Environmental Policies, NUTP & BS-VI Emission Norms."
+        },
+        {
+          "id": 45,
+          "week": 9,
+          "number": "Lec 45",
+          "title": "National Clean Air Programme (NCAP) & Transport",
+          "page_range": "pp. 1352–1378",
+          "overview": "Lecture 45 explores national clean air programme (ncap) & transport in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of National Clean Air Programme (NCAP) & Transport",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 9 assessments regarding National Clean Air Programme (NCAP) & Transport."
+        }
+      ]
+    },
+    "10": {
+      "week": 10,
+      "title": "Decarbonization, Alternate Fuels, Electric Vehicles, and BRTS",
+      "summary": "Investigates deep decarbonization strategies: alternate fuels (ethanol blending, CNG, LNG, green hydrogen), electric vehicle battery lifecycles, futuristic Hyperloop technology, and BRTS design.",
+      "key_takeaways": [
+        "Electric vehicles eliminate tailpipe emissions, but overall sustainability depends on grid decarbonization (Well-to-Wheel analysis).",
+        "E20 represents 20% ethanol blended with petrol, targeted nationwide in India to displace imported crude.",
+        "Green hydrogen produced via renewable electrolysis offers zero-carbon heavy transport potential.",
+        "Hyperloop operates capsules in low-pressure evacuated tubes with magnetic levitation to eliminate rolling and aerodynamic resistance.",
+        "Ahmedabad Janmarg BRTS is an internationally recognized gold-standard BRT implementation in India."
+      ],
+      "lectures": [
+        {
+          "id": 46,
+          "week": 10,
+          "number": "Lec 46",
+          "title": "Decarbonizing Transport & Net-Zero Pathways",
+          "page_range": "pp. 1379–1412",
+          "overview": "Lecture 46 explores decarbonizing transport & net-zero pathways in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Decarbonizing Transport & Net-Zero Pathways",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 10 assessments regarding Decarbonizing Transport & Net-Zero Pathways."
+        },
+        {
+          "id": 47,
+          "week": 10,
+          "number": "Lec 47",
+          "title": "Alternate Fuels: Biofuels, CNG, LNG, Hydrogen",
+          "page_range": "pp. 1413–1458",
+          "overview": "Lecture 47 explores alternate fuels: biofuels, cng, lng, hydrogen in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Alternate Fuels: Biofuels, CNG, LNG, Hydrogen",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 10 assessments regarding Alternate Fuels: Biofuels, CNG, LNG, Hydrogen."
+        },
+        {
+          "id": 48,
+          "week": 10,
+          "number": "Lec 48",
+          "title": "Electric Vehicles: Battery Tech & Well-to-Wheel Analysis",
+          "page_range": "pp. 1459–1488",
+          "overview": "Lecture 48 explores electric vehicles: battery tech & well-to-wheel analysis in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Electric Vehicles: Battery Tech & Well-to-Wheel Analysis",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 10 assessments regarding Electric Vehicles: Battery Tech & Well-to-Wheel Analysis."
+        },
+        {
+          "id": 49,
+          "week": 10,
+          "number": "Lec 49",
+          "title": "Emerging Technologies: Hyperloop & Maglev",
+          "page_range": "pp. 1489–1512",
+          "overview": "Lecture 49 explores emerging technologies: hyperloop & maglev in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Emerging Technologies: Hyperloop & Maglev",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 10 assessments regarding Emerging Technologies: Hyperloop & Maglev."
+        },
+        {
+          "id": 50,
+          "week": 10,
+          "number": "Lec 50",
+          "title": "Case Study - I: Bus Rapid Transit System (BRTS)",
+          "page_range": "pp. 1513–1544",
+          "overview": "Lecture 50 explores case study - i: bus rapid transit system (brts) in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Case Study - I: Bus Rapid Transit System (BRTS)",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 10 assessments regarding Case Study - I: Bus Rapid Transit System (BRTS)."
+        }
+      ]
+    },
+    "11": {
+      "week": 11,
+      "title": "Mass Transit, Green Airports, Waterways, NMT, and openLCA",
+      "summary": "Examines sustainability innovations in Mass Rapid Transit (MRT regenerative braking), 100% solar airports (Cochin), Inland Waterways (NW-1), Complete Streets, and the openLCA open-source platform.",
+      "key_takeaways": [
+        "Regenerative braking in metro trains feeds electrical energy back into the third rail/overhead traction catenary.",
+        "Cochin International Airport (CIAL) became the world's first fully solar-powered airport in 2015.",
+        "Inland Water Transport (IWT) consumes significantly less fuel per ton-km than road and rail haulage.",
+        "Complete Streets prioritize safe, equitable access for pedestrians, cyclists, motorists, and transit riders.",
+        "openLCA is a high-performance open-source LCA tool compatible with major databases like ecoinvent."
+      ],
+      "lectures": [
+        {
+          "id": 51,
+          "week": 11,
+          "number": "Lec 51",
+          "title": "Case Study - II: Mass Rapid Transit (MRT) & Regenerative Braking",
+          "page_range": "pp. 1545–1576",
+          "overview": "Lecture 51 explores case study - ii: mass rapid transit (mrt) & regenerative braking in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Case Study - II: Mass Rapid Transit (MRT) & Regenerative Braking",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 11 assessments regarding Case Study - II: Mass Rapid Transit (MRT) & Regenerative Braking."
+        },
+        {
+          "id": 52,
+          "week": 11,
+          "number": "Lec 52",
+          "title": "Case Study - III: Green Airports (Cochin 100% Solar)",
+          "page_range": "pp. 1577–1613",
+          "overview": "Lecture 52 explores case study - iii: green airports (cochin 100% solar) in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Case Study - III: Green Airports (Cochin 100% Solar)",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 11 assessments regarding Case Study - III: Green Airports (Cochin 100% Solar)."
+        },
+        {
+          "id": 53,
+          "week": 11,
+          "number": "Lec 53",
+          "title": "Case Study - IV: Sustainable Inland & Coastal Waterways",
+          "page_range": "pp. 1614–1644",
+          "overview": "Lecture 53 explores case study - iv: sustainable inland & coastal waterways in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Case Study - IV: Sustainable Inland & Coastal Waterways",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 11 assessments regarding Case Study - IV: Sustainable Inland & Coastal Waterways."
+        },
+        {
+          "id": 54,
+          "week": 11,
+          "number": "Lec 54",
+          "title": "Case Study - V: Non-Motorized Transport (NMT) & Complete Streets",
+          "page_range": "pp. 1645–1682",
+          "overview": "Lecture 54 explores case study - v: non-motorized transport (nmt) & complete streets in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Case Study - V: Non-Motorized Transport (NMT) & Complete Streets",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 11 assessments regarding Case Study - V: Non-Motorized Transport (NMT) & Complete Streets."
+        },
+        {
+          "id": 55,
+          "week": 11,
+          "number": "Lec 55",
+          "title": "openLCA: Open Source Life Cycle Assessment Tool",
+          "page_range": "pp. 1683–1707",
+          "overview": "Lecture 55 explores openlca: open source life cycle assessment tool in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of openLCA: Open Source Life Cycle Assessment Tool",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 11 assessments regarding openLCA: Open Source Life Cycle Assessment Tool."
+        }
+      ]
+    },
+    "12": {
+      "week": 12,
+      "title": "LCA Case Studies, STAN Tool, and Sustainability Indicators (DPSIR & STAR)",
+      "summary": "Demonstrates practical modeling in openLCA and STAN (Substance Flow Analysis). Introduces DPSIR indicator frameworks, Multi-Criteria Analysis, and the Sustainable Transport Appraisal Rating (STAR).",
+      "key_takeaways": [
+        "STAN software automates mass balancing, data reconciliation, and error propagation based on Austrian standard ÖNORM S 2096.",
+        "The DPSIR framework breaks down interactions into Driving forces (economic growth), Pressures (emissions), States (air quality), Impacts (health), and Responses (policy).",
+        "STAR (Sustainable Transport Appraisal Rating) uses Multi-Criteria Analysis (MCA) to evaluate project sustainability across economic, social, environmental, and engineering criteria.",
+        "Composite sustainability indices normalize, weight, and aggregate diverse indicators into a single actionable metric."
+      ],
+      "lectures": [
+        {
+          "id": 56,
+          "week": 12,
+          "number": "Lec 56",
+          "title": "openLCA Transport Applications & Case Studies",
+          "page_range": "pp. 1708–1728",
+          "overview": "Lecture 56 explores openlca transport applications & case studies in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of openLCA Transport Applications & Case Studies",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 12 assessments regarding openLCA Transport Applications & Case Studies."
+        },
+        {
+          "id": 57,
+          "week": 12,
+          "number": "Lec 57",
+          "title": "STAN Software: Substance Flow Analysis (ÖNORM S 2096)",
+          "page_range": "pp. 1729–1747",
+          "overview": "Lecture 57 explores stan software: substance flow analysis (önorm s 2096) in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of STAN Software: Substance Flow Analysis (ÖNORM S 2096)",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 12 assessments regarding STAN Software: Substance Flow Analysis (ÖNORM S 2096)."
+        },
+        {
+          "id": 58,
+          "week": 12,
+          "number": "Lec 58",
+          "title": "Sustainability Indicators & DPSIR Framework",
+          "page_range": "pp. 1748–1777",
+          "overview": "Lecture 58 explores sustainability indicators & dpsir framework in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Sustainability Indicators & DPSIR Framework",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 12 assessments regarding Sustainability Indicators & DPSIR Framework."
+        },
+        {
+          "id": 59,
+          "week": 12,
+          "number": "Lec 59",
+          "title": "Sustainable Transport Appraisal Rating (STAR) & MCA",
+          "page_range": "pp. 1778–1807",
+          "overview": "Lecture 59 explores sustainable transport appraisal rating (star) & mca in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Sustainable Transport Appraisal Rating (STAR) & MCA",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 12 assessments regarding Sustainable Transport Appraisal Rating (STAR) & MCA."
+        },
+        {
+          "id": 60,
+          "week": 12,
+          "number": "Lec 60",
+          "title": "Measuring Sustainability: Composite Indices & Course Synthesis",
+          "page_range": "pp. 1808–1838",
+          "overview": "Lecture 60 explores measuring sustainability: composite indices & course synthesis in the context of sustainable transportation systems as delivered by Prof. Bhola Ram Gurjar at IIT Roorkee.",
+          "core_topics": [
+            "Detailed analysis of Measuring Sustainability: Composite Indices & Course Synthesis",
+            "Fundamental principles, engineering concepts and regulatory frameworks",
+            "Practical case applications and empirical data from Indian and global transport projects",
+            "High-yield concepts for NPTEL examination preparation"
+          ],
+          "exam_point": "Frequently tested in Week 12 assessments regarding Measuring Sustainability: Composite Indices & Course Synthesis."
+        }
+      ]
+    }
+  },
+  "flashcards": [
+    {
+      "id": 1,
+      "week": 1,
+      "lecture": "Lec 01",
+      "title": "Introduction to Transportation Systems - I",
+      "front": "What are the central concepts of Introduction to Transportation Systems - I (Lec 01)?",
+      "back": "Discusses principles, models, and real-world implementation of introduction to transportation systems - i in sustainable transportation planning (NPTEL Course Book pp. 4–32).",
+      "pages": "pp. 4–32"
+    },
+    {
+      "id": 2,
+      "week": 1,
+      "lecture": "Lec 02",
+      "title": "Introduction to Transportation Systems - II",
+      "front": "What are the central concepts of Introduction to Transportation Systems - II (Lec 02)?",
+      "back": "Discusses principles, models, and real-world implementation of introduction to transportation systems - ii in sustainable transportation planning (NPTEL Course Book pp. 33–58).",
+      "pages": "pp. 33–58"
+    },
+    {
+      "id": 3,
+      "week": 1,
+      "lecture": "Lec 03",
+      "title": "Concept of Sustainability",
+      "front": "What are the central concepts of Concept of Sustainability (Lec 03)?",
+      "back": "Discusses principles, models, and real-world implementation of concept of sustainability in sustainable transportation planning (NPTEL Course Book pp. 59–88).",
+      "pages": "pp. 59–88"
+    },
+    {
+      "id": 4,
+      "week": 1,
+      "lecture": "Lec 04",
+      "title": "Current Scenario of Transportation in India",
+      "front": "What are the central concepts of Current Scenario of Transportation in India (Lec 04)?",
+      "back": "Discusses principles, models, and real-world implementation of current scenario of transportation in india in sustainable transportation planning (NPTEL Course Book pp. 89–116).",
+      "pages": "pp. 89–116"
+    },
+    {
+      "id": 5,
+      "week": 2,
+      "lecture": "Lec 05",
+      "title": "Climate Change: Indicators and Impacts",
+      "front": "What are the central concepts of Climate Change: Indicators and Impacts (Lec 05)?",
+      "back": "Discusses principles, models, and real-world implementation of climate change: indicators and impacts in sustainable transportation planning (NPTEL Course Book pp. 117–144).",
+      "pages": "pp. 117–144"
+    },
+    {
+      "id": 6,
+      "week": 2,
+      "lecture": "Lec 06",
+      "title": "Impacts of Transportation Systems - I (Air Quality)",
+      "front": "What are the central concepts of Impacts of Transportation Systems - I (Air Quality) (Lec 06)?",
+      "back": "Discusses principles, models, and real-world implementation of impacts of transportation systems - i (air quality) in sustainable transportation planning (NPTEL Course Book pp. 145–167).",
+      "pages": "pp. 145–167"
+    },
+    {
+      "id": 7,
+      "week": 2,
+      "lecture": "Lec 07",
+      "title": "Impacts of Transportation Systems - II (Health & Noise)",
+      "front": "What are the central concepts of Impacts of Transportation Systems - II (Health & Noise) (Lec 07)?",
+      "back": "Discusses principles, models, and real-world implementation of impacts of transportation systems - ii (health & noise) in sustainable transportation planning (NPTEL Course Book pp. 168–198).",
+      "pages": "pp. 168–198"
+    },
+    {
+      "id": 8,
+      "week": 2,
+      "lecture": "Lec 08",
+      "title": "Impacts of Transportation Systems - III (Ecology, Soil, Water)",
+      "front": "What are the central concepts of Impacts of Transportation Systems - III (Ecology, Soil, Water) (Lec 08)?",
+      "back": "Discusses principles, models, and real-world implementation of impacts of transportation systems - iii (ecology, soil, water) in sustainable transportation planning (NPTEL Course Book pp. 199–228).",
+      "pages": "pp. 199–228"
+    },
+    {
+      "id": 9,
+      "week": 2,
+      "lecture": "Lec 09",
+      "title": "Impacts of Transportation Systems - IV (Social & Economic)",
+      "front": "What are the central concepts of Impacts of Transportation Systems - IV (Social & Economic) (Lec 09)?",
+      "back": "Discusses principles, models, and real-world implementation of impacts of transportation systems - iv (social & economic) in sustainable transportation planning (NPTEL Course Book pp. 229–261).",
+      "pages": "pp. 229–261"
+    },
+    {
+      "id": 10,
+      "week": 3,
+      "lecture": "Lec 10",
+      "title": "Impacts of Transportation Systems - V (Energy & Fossil Fuels)",
+      "front": "What are the central concepts of Impacts of Transportation Systems - V (Energy & Fossil Fuels) (Lec 10)?",
+      "back": "Discusses principles, models, and real-world implementation of impacts of transportation systems - v (energy & fossil fuels) in sustainable transportation planning (NPTEL Course Book pp. 262–295).",
+      "pages": "pp. 262–295"
+    },
+    {
+      "id": 11,
+      "week": 3,
+      "lecture": "Lec 11",
+      "title": "Introduction to Environment Impact Assessment (EIA)",
+      "front": "What are the central concepts of Introduction to Environment Impact Assessment (EIA) (Lec 11)?",
+      "back": "Discusses principles, models, and real-world implementation of introduction to environment impact assessment (eia) in sustainable transportation planning (NPTEL Course Book pp. 296–333).",
+      "pages": "pp. 296–333"
+    },
+    {
+      "id": 12,
+      "week": 3,
+      "lecture": "Lec 12",
+      "title": "EIA Processes - I (Screening, Scoping, Baseline)",
+      "front": "What are the central concepts of EIA Processes - I (Screening, Scoping, Baseline) (Lec 12)?",
+      "back": "Discusses principles, models, and real-world implementation of eia processes - i (screening, scoping, baseline) in sustainable transportation planning (NPTEL Course Book pp. 334–369).",
+      "pages": "pp. 334–369"
+    },
+    {
+      "id": 13,
+      "week": 3,
+      "lecture": "Lec 13",
+      "title": "EIA Processes - II (Mitigation, EMP, Consultation)",
+      "front": "What are the central concepts of EIA Processes - II (Mitigation, EMP, Consultation) (Lec 13)?",
+      "back": "Discusses principles, models, and real-world implementation of eia processes - ii (mitigation, emp, consultation) in sustainable transportation planning (NPTEL Course Book pp. 370–403).",
+      "pages": "pp. 370–403"
+    },
+    {
+      "id": 14,
+      "week": 3,
+      "lecture": "Lec 14",
+      "title": "Methodologies of EIA (Matrices, Checklists, GIS)",
+      "front": "What are the central concepts of Methodologies of EIA (Matrices, Checklists, GIS) (Lec 14)?",
+      "back": "Discusses principles, models, and real-world implementation of methodologies of eia (matrices, checklists, gis) in sustainable transportation planning (NPTEL Course Book pp. 404–436).",
+      "pages": "pp. 404–436"
+    },
+    {
+      "id": 15,
+      "week": 3,
+      "lecture": "Lec 15",
+      "title": "EIA Process in India (1994 & 2006 Notifications)",
+      "front": "What are the central concepts of EIA Process in India (1994 & 2006 Notifications) (Lec 15)?",
+      "back": "Discusses principles, models, and real-world implementation of eia process in india (1994 & 2006 notifications) in sustainable transportation planning (NPTEL Course Book pp. 437–474).",
+      "pages": "pp. 437–474"
+    },
+    {
+      "id": 16,
+      "week": 4,
+      "lecture": "Lec 16",
+      "title": "Global Practices in EIA Process",
+      "front": "What are the central concepts of Global Practices in EIA Process (Lec 16)?",
+      "back": "Discusses principles, models, and real-world implementation of global practices in eia process in sustainable transportation planning (NPTEL Course Book pp. 475–499).",
+      "pages": "pp. 475–499"
+    },
+    {
+      "id": 17,
+      "week": 4,
+      "lecture": "Lec 17",
+      "title": "EIA Case Study - I: Highway Projects",
+      "front": "What are the central concepts of EIA Case Study - I: Highway Projects (Lec 17)?",
+      "back": "Discusses principles, models, and real-world implementation of eia case study - i: highway projects in sustainable transportation planning (NPTEL Course Book pp. 500–524).",
+      "pages": "pp. 500–524"
+    },
+    {
+      "id": 18,
+      "week": 4,
+      "lecture": "Lec 18",
+      "title": "EIA Case Study - II: Dedicated Freight Corridor & Railways",
+      "front": "What are the central concepts of EIA Case Study - II: Dedicated Freight Corridor & Railways (Lec 18)?",
+      "back": "Discusses principles, models, and real-world implementation of eia case study - ii: dedicated freight corridor & railways in sustainable transportation planning (NPTEL Course Book pp. 525–549).",
+      "pages": "pp. 525–549"
+    },
+    {
+      "id": 19,
+      "week": 4,
+      "lecture": "Lec 19",
+      "title": "EIA Case Study - III: Airport Projects",
+      "front": "What are the central concepts of EIA Case Study - III: Airport Projects (Lec 19)?",
+      "back": "Discusses principles, models, and real-world implementation of eia case study - iii: airport projects in sustainable transportation planning (NPTEL Course Book pp. 550–572).",
+      "pages": "pp. 550–572"
+    },
+    {
+      "id": 20,
+      "week": 4,
+      "lecture": "Lec 20",
+      "title": "EIA Case Study - IV: Port & Marine Terminals",
+      "front": "What are the central concepts of EIA Case Study - IV: Port & Marine Terminals (Lec 20)?",
+      "back": "Discusses principles, models, and real-world implementation of eia case study - iv: port & marine terminals in sustainable transportation planning (NPTEL Course Book pp. 573–598).",
+      "pages": "pp. 573–598"
+    },
+    {
+      "id": 21,
+      "week": 5,
+      "lecture": "Lec 21",
+      "title": "EIA Case Study - V: Urban Metro Rail",
+      "front": "What are the central concepts of EIA Case Study - V: Urban Metro Rail (Lec 21)?",
+      "back": "Discusses principles, models, and real-world implementation of eia case study - v: urban metro rail in sustainable transportation planning (NPTEL Course Book pp. 599–630).",
+      "pages": "pp. 599–630"
+    },
+    {
+      "id": 22,
+      "week": 5,
+      "lecture": "Lec 22",
+      "title": "Introduction to Land Use & Spatial Dynamics",
+      "front": "What are the central concepts of Introduction to Land Use & Spatial Dynamics (Lec 22)?",
+      "back": "Discusses principles, models, and real-world implementation of introduction to land use & spatial dynamics in sustainable transportation planning (NPTEL Course Book pp. 631–653).",
+      "pages": "pp. 631–653"
+    },
+    {
+      "id": 23,
+      "week": 5,
+      "lecture": "Lec 23",
+      "title": "Land Use Planning and Zoning Schemes",
+      "front": "What are the central concepts of Land Use Planning and Zoning Schemes (Lec 23)?",
+      "back": "Discusses principles, models, and real-world implementation of land use planning and zoning schemes in sustainable transportation planning (NPTEL Course Book pp. 654–681).",
+      "pages": "pp. 654–681"
+    },
+    {
+      "id": 24,
+      "week": 5,
+      "lecture": "Lec 24",
+      "title": "Transit Oriented Development (TOD): Concepts & 3Ds",
+      "front": "What are the central concepts of Transit Oriented Development (TOD): Concepts & 3Ds (Lec 24)?",
+      "back": "Discusses principles, models, and real-world implementation of transit oriented development (tod): concepts & 3ds in sustainable transportation planning (NPTEL Course Book pp. 682–708).",
+      "pages": "pp. 682–708"
+    },
+    {
+      "id": 25,
+      "week": 5,
+      "lecture": "Lec 25",
+      "title": "TOD Implementation & Pedestrian Infrastructure",
+      "front": "What are the central concepts of TOD Implementation & Pedestrian Infrastructure (Lec 25)?",
+      "back": "Discusses principles, models, and real-world implementation of tod implementation & pedestrian infrastructure in sustainable transportation planning (NPTEL Course Book pp. 709–735).",
+      "pages": "pp. 709–735"
+    },
+    {
+      "id": 26,
+      "week": 6,
+      "lecture": "Lec 26",
+      "title": "TOD Case Study - I: Delhi Metro Rail Corridor",
+      "front": "What are the central concepts of TOD Case Study - I: Delhi Metro Rail Corridor (Lec 26)?",
+      "back": "Discusses principles, models, and real-world implementation of tod case study - i: delhi metro rail corridor in sustainable transportation planning (NPTEL Course Book pp. 736–755).",
+      "pages": "pp. 736–755"
+    },
+    {
+      "id": 27,
+      "week": 6,
+      "lecture": "Lec 27",
+      "title": "TOD Case Study - II: Belgrade, Serbia",
+      "front": "What are the central concepts of TOD Case Study - II: Belgrade, Serbia (Lec 27)?",
+      "back": "Discusses principles, models, and real-world implementation of tod case study - ii: belgrade, serbia in sustainable transportation planning (NPTEL Course Book pp. 756–784).",
+      "pages": "pp. 756–784"
+    },
+    {
+      "id": 28,
+      "week": 6,
+      "lecture": "Lec 28",
+      "title": "TOD Case Study - III: Naya Raipur (Atal Nagar)",
+      "front": "What are the central concepts of TOD Case Study - III: Naya Raipur (Atal Nagar) (Lec 28)?",
+      "back": "Discusses principles, models, and real-world implementation of tod case study - iii: naya raipur (atal nagar) in sustainable transportation planning (NPTEL Course Book pp. 785–811).",
+      "pages": "pp. 785–811"
+    },
+    {
+      "id": 29,
+      "week": 6,
+      "lecture": "Lec 29",
+      "title": "Introduction to Sustainable Transport Planning & ASI",
+      "front": "What are the central concepts of Introduction to Sustainable Transport Planning & ASI (Lec 29)?",
+      "back": "Discusses principles, models, and real-world implementation of introduction to sustainable transport planning & asi in sustainable transportation planning (NPTEL Course Book pp. 812–844).",
+      "pages": "pp. 812–844"
+    },
+    {
+      "id": 30,
+      "week": 6,
+      "lecture": "Lec 30",
+      "title": "Traditional Transport Planning (4-Step Model)",
+      "front": "What are the central concepts of Traditional Transport Planning (4-Step Model) (Lec 30)?",
+      "back": "Discusses principles, models, and real-world implementation of traditional transport planning (4-step model) in sustainable transportation planning (NPTEL Course Book pp. 845–879).",
+      "pages": "pp. 845–879"
+    },
+    {
+      "id": 31,
+      "week": 7,
+      "lecture": "Lec 31",
+      "title": "Contemporary Planning: Activity-Based Approaches",
+      "front": "What are the central concepts of Contemporary Planning: Activity-Based Approaches (Lec 31)?",
+      "back": "Discusses principles, models, and real-world implementation of contemporary planning: activity-based approaches in sustainable transportation planning (NPTEL Course Book pp. 880–921).",
+      "pages": "pp. 880–921"
+    },
+    {
+      "id": 32,
+      "week": 7,
+      "lecture": "Lec 32",
+      "title": "Transport Demand Management (TDM) Strategies",
+      "front": "What are the central concepts of Transport Demand Management (TDM) Strategies (Lec 32)?",
+      "back": "Discusses principles, models, and real-world implementation of transport demand management (tdm) strategies in sustainable transportation planning (NPTEL Course Book pp. 922–958).",
+      "pages": "pp. 922–958"
+    },
+    {
+      "id": 33,
+      "week": 7,
+      "lecture": "Lec 33",
+      "title": "Life Cycle Assessment (LCA): Introduction & ISO 14040",
+      "front": "What are the central concepts of Life Cycle Assessment (LCA): Introduction & ISO 14040 (Lec 33)?",
+      "back": "Discusses principles, models, and real-world implementation of life cycle assessment (lca): introduction & iso 14040 in sustainable transportation planning (NPTEL Course Book pp. 959–990).",
+      "pages": "pp. 959–990"
+    },
+    {
+      "id": 34,
+      "week": 7,
+      "lecture": "Lec 34",
+      "title": "Life Cycle Assessment: Theory, Inventory & Impact",
+      "front": "What are the central concepts of Life Cycle Assessment: Theory, Inventory & Impact (Lec 34)?",
+      "back": "Discusses principles, models, and real-world implementation of life cycle assessment: theory, inventory & impact in sustainable transportation planning (NPTEL Course Book pp. 991–1020).",
+      "pages": "pp. 991–1020"
+    },
+    {
+      "id": 35,
+      "week": 7,
+      "lecture": "Lec 35",
+      "title": "LCA Case Study: Vehicle & Fuel Systems",
+      "front": "What are the central concepts of LCA Case Study: Vehicle & Fuel Systems (Lec 35)?",
+      "back": "Discusses principles, models, and real-world implementation of lca case study: vehicle & fuel systems in sustainable transportation planning (NPTEL Course Book pp. 1021–1046).",
+      "pages": "pp. 1021–1046"
+    },
+    {
+      "id": 36,
+      "week": 8,
+      "lecture": "Lec 36",
+      "title": "Material Flow Analysis (MFA): Mass Balance Principles",
+      "front": "What are the central concepts of Material Flow Analysis (MFA): Mass Balance Principles (Lec 36)?",
+      "back": "Discusses principles, models, and real-world implementation of material flow analysis (mfa): mass balance principles in sustainable transportation planning (NPTEL Course Book pp. 1047–1072).",
+      "pages": "pp. 1047–1072"
+    },
+    {
+      "id": 37,
+      "week": 8,
+      "lecture": "Lec 37",
+      "title": "Material Flow Analysis: Transport Case Study",
+      "front": "What are the central concepts of Material Flow Analysis: Transport Case Study (Lec 37)?",
+      "back": "Discusses principles, models, and real-world implementation of material flow analysis: transport case study in sustainable transportation planning (NPTEL Course Book pp. 1073–1099).",
+      "pages": "pp. 1073–1099"
+    },
+    {
+      "id": 38,
+      "week": 8,
+      "lecture": "Lec 38",
+      "title": "Concept of Circular Economy & 3R/9R Principles",
+      "front": "What are the central concepts of Concept of Circular Economy & 3R/9R Principles (Lec 38)?",
+      "back": "Discusses principles, models, and real-world implementation of concept of circular economy & 3r/9r principles in sustainable transportation planning (NPTEL Course Book pp. 1100–1135).",
+      "pages": "pp. 1100–1135"
+    },
+    {
+      "id": 39,
+      "week": 8,
+      "lecture": "Lec 39",
+      "title": "Circular Economy in Transport Sector & ELVs",
+      "front": "What are the central concepts of Circular Economy in Transport Sector & ELVs (Lec 39)?",
+      "back": "Discusses principles, models, and real-world implementation of circular economy in transport sector & elvs in sustainable transportation planning (NPTEL Course Book pp. 1136–1161).",
+      "pages": "pp. 1136–1161"
+    },
+    {
+      "id": 40,
+      "week": 8,
+      "lecture": "Lec 40",
+      "title": "Modelling of Transport Emissions - I: Principles & Factors",
+      "front": "What are the central concepts of Modelling of Transport Emissions - I: Principles & Factors (Lec 40)?",
+      "back": "Discusses principles, models, and real-world implementation of modelling of transport emissions - i: principles & factors in sustainable transportation planning (NPTEL Course Book pp. 1162–1208).",
+      "pages": "pp. 1162–1208"
+    },
+    {
+      "id": 41,
+      "week": 9,
+      "lecture": "Lec 41",
+      "title": "Modelling of Transport Emissions - II: Driving Cycles & Models",
+      "front": "What are the central concepts of Modelling of Transport Emissions - II: Driving Cycles & Models (Lec 41)?",
+      "back": "Discusses principles, models, and real-world implementation of modelling of transport emissions - ii: driving cycles & models in sustainable transportation planning (NPTEL Course Book pp. 1209–1242).",
+      "pages": "pp. 1209–1242"
+    },
+    {
+      "id": 42,
+      "week": 9,
+      "lecture": "Lec 42",
+      "title": "Dispersion Models: CALINE4 & Gaussian Plumes",
+      "front": "What are the central concepts of Dispersion Models: CALINE4 & Gaussian Plumes (Lec 42)?",
+      "back": "Discusses principles, models, and real-world implementation of dispersion models: caline4 & gaussian plumes in sustainable transportation planning (NPTEL Course Book pp. 1243–1282).",
+      "pages": "pp. 1243–1282"
+    },
+    {
+      "id": 43,
+      "week": 9,
+      "lecture": "Lec 43",
+      "title": "Traffic Noise Emission & Barrier Models",
+      "front": "What are the central concepts of Traffic Noise Emission & Barrier Models (Lec 43)?",
+      "back": "Discusses principles, models, and real-world implementation of traffic noise emission & barrier models in sustainable transportation planning (NPTEL Course Book pp. 1283–1309).",
+      "pages": "pp. 1283–1309"
+    },
+    {
+      "id": 44,
+      "week": 9,
+      "lecture": "Lec 44",
+      "title": "Environmental Policies, NUTP & BS-VI Emission Norms",
+      "front": "What are the central concepts of Environmental Policies, NUTP & BS-VI Emission Norms (Lec 44)?",
+      "back": "Discusses principles, models, and real-world implementation of environmental policies, nutp & bs-vi emission norms in sustainable transportation planning (NPTEL Course Book pp. 1310–1351).",
+      "pages": "pp. 1310–1351"
+    },
+    {
+      "id": 45,
+      "week": 9,
+      "lecture": "Lec 45",
+      "title": "National Clean Air Programme (NCAP) & Transport",
+      "front": "What are the central concepts of National Clean Air Programme (NCAP) & Transport (Lec 45)?",
+      "back": "Discusses principles, models, and real-world implementation of national clean air programme (ncap) & transport in sustainable transportation planning (NPTEL Course Book pp. 1352–1378).",
+      "pages": "pp. 1352–1378"
+    },
+    {
+      "id": 46,
+      "week": 10,
+      "lecture": "Lec 46",
+      "title": "Decarbonizing Transport & Net-Zero Pathways",
+      "front": "What are the central concepts of Decarbonizing Transport & Net-Zero Pathways (Lec 46)?",
+      "back": "Discusses principles, models, and real-world implementation of decarbonizing transport & net-zero pathways in sustainable transportation planning (NPTEL Course Book pp. 1379–1412).",
+      "pages": "pp. 1379–1412"
+    },
+    {
+      "id": 47,
+      "week": 10,
+      "lecture": "Lec 47",
+      "title": "Alternate Fuels: Biofuels, CNG, LNG, Hydrogen",
+      "front": "What are the central concepts of Alternate Fuels: Biofuels, CNG, LNG, Hydrogen (Lec 47)?",
+      "back": "Discusses principles, models, and real-world implementation of alternate fuels: biofuels, cng, lng, hydrogen in sustainable transportation planning (NPTEL Course Book pp. 1413–1458).",
+      "pages": "pp. 1413–1458"
+    },
+    {
+      "id": 48,
+      "week": 10,
+      "lecture": "Lec 48",
+      "title": "Electric Vehicles: Battery Tech & Well-to-Wheel Analysis",
+      "front": "What are the central concepts of Electric Vehicles: Battery Tech & Well-to-Wheel Analysis (Lec 48)?",
+      "back": "Discusses principles, models, and real-world implementation of electric vehicles: battery tech & well-to-wheel analysis in sustainable transportation planning (NPTEL Course Book pp. 1459–1488).",
+      "pages": "pp. 1459–1488"
+    },
+    {
+      "id": 49,
+      "week": 10,
+      "lecture": "Lec 49",
+      "title": "Emerging Technologies: Hyperloop & Maglev",
+      "front": "What are the central concepts of Emerging Technologies: Hyperloop & Maglev (Lec 49)?",
+      "back": "Discusses principles, models, and real-world implementation of emerging technologies: hyperloop & maglev in sustainable transportation planning (NPTEL Course Book pp. 1489–1512).",
+      "pages": "pp. 1489–1512"
+    },
+    {
+      "id": 50,
+      "week": 10,
+      "lecture": "Lec 50",
+      "title": "Case Study - I: Bus Rapid Transit System (BRTS)",
+      "front": "What are the central concepts of Case Study - I: Bus Rapid Transit System (BRTS) (Lec 50)?",
+      "back": "Discusses principles, models, and real-world implementation of case study - i: bus rapid transit system (brts) in sustainable transportation planning (NPTEL Course Book pp. 1513–1544).",
+      "pages": "pp. 1513–1544"
+    },
+    {
+      "id": 51,
+      "week": 11,
+      "lecture": "Lec 51",
+      "title": "Case Study - II: Mass Rapid Transit (MRT) & Regenerative Braking",
+      "front": "What are the central concepts of Case Study - II: Mass Rapid Transit (MRT) & Regenerative Braking (Lec 51)?",
+      "back": "Discusses principles, models, and real-world implementation of case study - ii: mass rapid transit (mrt) & regenerative braking in sustainable transportation planning (NPTEL Course Book pp. 1545–1576).",
+      "pages": "pp. 1545–1576"
+    },
+    {
+      "id": 52,
+      "week": 11,
+      "lecture": "Lec 52",
+      "title": "Case Study - III: Green Airports (Cochin 100% Solar)",
+      "front": "What are the central concepts of Case Study - III: Green Airports (Cochin 100% Solar) (Lec 52)?",
+      "back": "Discusses principles, models, and real-world implementation of case study - iii: green airports (cochin 100% solar) in sustainable transportation planning (NPTEL Course Book pp. 1577–1613).",
+      "pages": "pp. 1577–1613"
+    },
+    {
+      "id": 53,
+      "week": 11,
+      "lecture": "Lec 53",
+      "title": "Case Study - IV: Sustainable Inland & Coastal Waterways",
+      "front": "What are the central concepts of Case Study - IV: Sustainable Inland & Coastal Waterways (Lec 53)?",
+      "back": "Discusses principles, models, and real-world implementation of case study - iv: sustainable inland & coastal waterways in sustainable transportation planning (NPTEL Course Book pp. 1614–1644).",
+      "pages": "pp. 1614–1644"
+    },
+    {
+      "id": 54,
+      "week": 11,
+      "lecture": "Lec 54",
+      "title": "Case Study - V: Non-Motorized Transport (NMT) & Complete Streets",
+      "front": "What are the central concepts of Case Study - V: Non-Motorized Transport (NMT) & Complete Streets (Lec 54)?",
+      "back": "Discusses principles, models, and real-world implementation of case study - v: non-motorized transport (nmt) & complete streets in sustainable transportation planning (NPTEL Course Book pp. 1645–1682).",
+      "pages": "pp. 1645–1682"
+    },
+    {
+      "id": 55,
+      "week": 11,
+      "lecture": "Lec 55",
+      "title": "openLCA: Open Source Life Cycle Assessment Tool",
+      "front": "What are the central concepts of openLCA: Open Source Life Cycle Assessment Tool (Lec 55)?",
+      "back": "Discusses principles, models, and real-world implementation of openlca: open source life cycle assessment tool in sustainable transportation planning (NPTEL Course Book pp. 1683–1707).",
+      "pages": "pp. 1683–1707"
+    },
+    {
+      "id": 56,
+      "week": 12,
+      "lecture": "Lec 56",
+      "title": "openLCA Transport Applications & Case Studies",
+      "front": "What are the central concepts of openLCA Transport Applications & Case Studies (Lec 56)?",
+      "back": "Discusses principles, models, and real-world implementation of openlca transport applications & case studies in sustainable transportation planning (NPTEL Course Book pp. 1708–1728).",
+      "pages": "pp. 1708–1728"
+    },
+    {
+      "id": 57,
+      "week": 12,
+      "lecture": "Lec 57",
+      "title": "STAN Software: Substance Flow Analysis (ÖNORM S 2096)",
+      "front": "What are the central concepts of STAN Software: Substance Flow Analysis (ÖNORM S 2096) (Lec 57)?",
+      "back": "Discusses principles, models, and real-world implementation of stan software: substance flow analysis (önorm s 2096) in sustainable transportation planning (NPTEL Course Book pp. 1729–1747).",
+      "pages": "pp. 1729–1747"
+    },
+    {
+      "id": 58,
+      "week": 12,
+      "lecture": "Lec 58",
+      "title": "Sustainability Indicators & DPSIR Framework",
+      "front": "What are the central concepts of Sustainability Indicators & DPSIR Framework (Lec 58)?",
+      "back": "Discusses principles, models, and real-world implementation of sustainability indicators & dpsir framework in sustainable transportation planning (NPTEL Course Book pp. 1748–1777).",
+      "pages": "pp. 1748–1777"
+    },
+    {
+      "id": 59,
+      "week": 12,
+      "lecture": "Lec 59",
+      "title": "Sustainable Transport Appraisal Rating (STAR) & MCA",
+      "front": "What are the central concepts of Sustainable Transport Appraisal Rating (STAR) & MCA (Lec 59)?",
+      "back": "Discusses principles, models, and real-world implementation of sustainable transport appraisal rating (star) & mca in sustainable transportation planning (NPTEL Course Book pp. 1778–1807).",
+      "pages": "pp. 1778–1807"
+    },
+    {
+      "id": 60,
+      "week": 12,
+      "lecture": "Lec 60",
+      "title": "Measuring Sustainability: Composite Indices & Course Synthesis",
+      "front": "What are the central concepts of Measuring Sustainability: Composite Indices & Course Synthesis (Lec 60)?",
+      "back": "Discusses principles, models, and real-world implementation of measuring sustainability: composite indices & course synthesis in sustainable transportation planning (NPTEL Course Book pp. 1808–1838).",
+      "pages": "pp. 1808–1838"
+    },
+    {
+      "id": 101,
+      "week": 1,
+      "lecture": "Lec 01",
+      "front": "What was the very first form of transportation for humans?",
+      "back": "Walking (primitive locomotion).",
+      "category": "History"
+    },
+    {
+      "id": 102,
+      "week": 1,
+      "lecture": "Lec 03",
+      "front": "Define Sustainable Development according to the Brundtland Commission (1987).",
+      "back": "Development that meets the needs of the present without compromising the ability of future generations to meet their own needs.",
+      "category": "Definition"
+    },
+    {
+      "id": 103,
+      "week": 1,
+      "lecture": "Lec 03",
+      "front": "In what year and where was the historic Earth Summit held?",
+      "back": "1992 in Rio de Janeiro, Brazil.",
+      "category": "Milestone"
+    },
+    {
+      "id": 104,
+      "week": 1,
+      "lecture": "Lec 03",
+      "front": "How many Sustainable Development Goals (SDGs) were established by the United Nations?",
+      "back": "17 Sustainable Development Goals (SDGs).",
+      "category": "Policy"
+    },
+    {
+      "id": 105,
+      "week": 1,
+      "lecture": "Lec 04",
+      "front": "Who conceived the PURA (Provision of Urban Amenities to Rural Areas) development strategy in India?",
+      "back": "Dr. A.P.J. Abdul Kalam, former President of India.",
+      "category": "Policy"
+    },
+    {
+      "id": 106,
+      "week": 1,
+      "lecture": "Lec 04",
+      "front": "Which vehicle category comprises the majority share (>70%) of total registered motor vehicles in India?",
+      "back": "Two-wheelers (motorcycles and scooters).",
+      "category": "Data"
+    },
+    {
+      "id": 107,
+      "week": 3,
+      "lecture": "Lec 11",
+      "front": "What is the primary objective of Environmental Impact Assessment (EIA)?",
+      "back": "To identify, predict, evaluate, and mitigate biophysical and social environmental effects of proposed development projects prior to major decisions.",
+      "category": "Definition"
+    },
+    {
+      "id": 108,
+      "week": 3,
+      "lecture": "Lec 14",
+      "front": "Name common methodologies used for EIA analysis.",
+      "back": "Ad-hoc methods, Checklists (simple, descriptive, scaling), Matrices (Leopold Matrix), Network diagrams, and GIS Overlays.",
+      "category": "Methodology"
+    },
+    {
+      "id": 109,
+      "week": 3,
+      "lecture": "Lec 15",
+      "front": "Under which statutory act is EIA notified in India?",
+      "back": "The Environment (Protection) Act, 1986, notified by MoEFCC in 1994 and revised in 2006.",
+      "category": "Law"
+    },
+    {
+      "id": 110,
+      "week": 5,
+      "lecture": "Lec 24",
+      "front": "What are the core '3Ds' of Transit Oriented Development (TOD)?",
+      "back": "Density, Diversity (mixed land use), and Design (pedestrian-friendly street network).",
+      "category": "Planning"
+    },
+    {
+      "id": 111,
+      "week": 6,
+      "lecture": "Lec 29",
+      "front": "What is the 'ASI' framework in sustainable mobility?",
+      "back": "Avoid/Reduce unnecessary motorized trips, Shift to green/public modes, and Improve vehicle & fuel energy efficiency.",
+      "category": "Framework"
+    },
+    {
+      "id": 112,
+      "week": 6,
+      "lecture": "Lec 30",
+      "front": "List the sequential steps in the traditional 4-Step Transportation Planning Model.",
+      "back": "1. Trip Generation\n2. Trip Distribution\n3. Modal Split (Mode Choice)\n4. Traffic Assignment",
+      "category": "Model"
+    },
+    {
+      "id": 113,
+      "week": 7,
+      "lecture": "Lec 33",
+      "front": "What international standard governs Life Cycle Assessment (LCA)?",
+      "back": "ISO 14040 (Principles and framework) and ISO 14044 (Requirements and guidelines).",
+      "category": "Standard"
+    },
+    {
+      "id": 114,
+      "week": 8,
+      "lecture": "Lec 36",
+      "front": "What physical fundamental law forms the basis of Material Flow Analysis (MFA)?",
+      "back": "The Law of Conservation of Mass: Input = Output + Storage (Stock accumulation).",
+      "category": "Science"
+    },
+    {
+      "id": 115,
+      "week": 9,
+      "lecture": "Lec 42",
+      "front": "What line-source dispersion model is commonly utilized for highway air quality analysis?",
+      "back": "CALINE4 (California Line Source Dispersion Model based on Gaussian plume theory).",
+      "category": "Tool"
+    },
+    {
+      "id": 116,
+      "week": 10,
+      "lecture": "Lec 48",
+      "front": "What is Well-to-Wheel (WTW) analysis?",
+      "back": "A life cycle assessment of vehicle fuels comprising Well-to-Tank (WTT, fuel production) and Tank-to-Wheel (TTW, vehicle operation).",
+      "category": "Concept"
+    },
+    {
+      "id": 117,
+      "week": 10,
+      "lecture": "Lec 49",
+      "front": "What are the fundamental engineering features of Hyperloop technology?",
+      "back": "Passenger capsules travelling inside low-pressure vacuum tubes utilizing magnetic levitation (Maglev) and linear induction propulsion.",
+      "category": "Technology"
+    },
+    {
+      "id": 118,
+      "week": 11,
+      "lecture": "Lec 52",
+      "front": "Which airport was certified as the world's first fully solar-powered green airport?",
+      "back": "Cochin International Airport (CIAL) in Kerala, India.",
+      "category": "Case Study"
+    },
+    {
+      "id": 119,
+      "week": 12,
+      "lecture": "Lec 57",
+      "front": "What is STAN software used for, and which standard does it implement?",
+      "back": "SubSTance flow ANalysis (MFA software) implementing Austrian Standard ÖNORM S 2096.",
+      "category": "Tool"
+    },
+    {
+      "id": 120,
+      "week": 12,
+      "lecture": "Lec 58",
+      "front": "Explain the acronym DPSIR used in sustainability indicators.",
+      "back": "Driving forces &rarr; Pressures &rarr; State &rarr; Impacts &rarr; Responses.",
+      "category": "Framework"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "EIA",
+      "full": "Environmental Impact Assessment",
+      "desc": "Formal process used to predict environmental consequences of a proposed development project before decision making."
+    },
+    {
+      "term": "TOD",
+      "full": "Transit Oriented Development",
+      "desc": "Urban development maximizing residential, business and leisure space within walking distance of public transport."
+    },
+    {
+      "term": "ASI",
+      "full": "Avoid - Shift - Improve",
+      "desc": "Sustainable mobility framework: Avoid unnecessary travel, Shift to environmentally friendly modes, and Improve vehicle technology."
+    },
+    {
+      "term": "LCA",
+      "full": "Life Cycle Assessment",
+      "desc": "Methodology for assessing environmental impacts associated with all stages of the life cycle of a commercial product, process, or service (ISO 14040/14044)."
+    },
+    {
+      "term": "MFA",
+      "full": "Material Flow Analysis",
+      "desc": "Systematic assessment of the state and change of materials, stocks, and flows by mass balance within a defined system boundary."
+    },
+    {
+      "term": "STAN",
+      "full": "SubSTance flow ANalysis",
+      "desc": "Freeware supporting MFA according to Austrian standard ÖNORM S 2096, featuring data reconciliation and error propagation."
+    },
+    {
+      "term": "openLCA",
+      "full": "Open Life Cycle Assessment",
+      "desc": "Open-source software application for Life Cycle Assessment and sustainability modeling developed by GreenDelta."
+    },
+    {
+      "term": "DPSIR",
+      "full": "Driving force - Pressure - State - Impact - Response",
+      "desc": "Causal framework for describing interactions between society and the environment adopted by the European Environment Agency."
+    },
+    {
+      "term": "STAR",
+      "full": "Sustainable Transport Appraisal Rating",
+      "desc": "Multicriteria appraisal framework evaluating transport projects across economic, social, environmental, and safeguard dimensions."
+    },
+    {
+      "term": "TDM",
+      "full": "Travel Demand Management",
+      "desc": "Application of strategies and policies to reduce travel demand, specifically that of single-occupancy private vehicles."
+    },
+    {
+      "term": "BRTS",
+      "full": "Bus Rapid Transit System",
+      "desc": "Bus-based public transport system designed to have higher capacity, speed, and reliability through dedicated right-of-way and off-board ticketing."
+    },
+    {
+      "term": "NCAP",
+      "full": "National Clean Air Programme",
+      "desc": "Comprehensive national framework launched in India (2019) aiming to achieve a 20-30% reduction in PM2.5 and PM10 concentrations across non-attainment cities."
+    },
+    {
+      "term": "BS-VI",
+      "full": "Bharat Stage VI",
+      "desc": "Emission standards instituted by the Indian government mandating ultra-low sulfur (10 ppm) fuels and advanced aftertreatment systems (DPF, SCR)."
+    },
+    {
+      "term": "PURA",
+      "full": "Provision of Urban Amenities to Rural Areas",
+      "desc": "Strategic rural-urban connectivity and sustainable development model proposed by former Indian President Dr. A.P.J. Abdul Kalam."
+    },
+    {
+      "term": "FAR",
+      "full": "Floor Area Ratio",
+      "desc": "Ratio of a building's total floor area to the size of the piece of land upon which it is built; key tool in transit-oriented zoning."
+    },
+    {
+      "term": "WTW",
+      "full": "Well-to-Wheel",
+      "desc": "Life-cycle energy and emissions accounting from primary fuel extraction/generation to vehicle movement (Well-to-Tank + Tank-to-Wheel)."
+    }
+  ]
+};

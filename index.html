@@ -14,11 +14,23 @@
   <!-- Top Navigation Bar -->
   <header class="navbar">
     <div class="nav-content">
-      <a href="#" class="brand-link" id="navHomeLink">
-        <span class="brand-text">NPTEL Practice</span>
-      </a>
+      <div class="nav-left">
+        <a href="#" class="brand-link" id="navHomeLink">
+          <span class="brand-text">NPTEL Practice</span>
+        </a>
+        <nav class="nav-tabs" role="tablist">
+          <button type="button" class="nav-tab active" id="tabQuizView" role="tab" aria-selected="true">
+            <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+            Quizzes
+          </button>
+          <button type="button" class="nav-tab" id="tabStudyView" role="tab" aria-selected="false">
+            <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+            Study Material
+          </button>
+        </nav>
+      </div>
       <div class="nav-right">
-        <span class="course-code-badge">NOC26_CE107</span>
+        <span class="course-code-badge" title="Course Book 105107210">NOC26_CE107 &middot; 105107210</span>
       </div>
     </div>
   </header>
@@ -36,6 +48,10 @@
             <p class="course-subtitle">NOC26_CE107 &middot; select one or more weeks, then generate a quiz.</p>
           </div>
           <div class="header-actions">
+            <button id="goToStudyBtn" class="btn btn-secondary">
+              <svg style="width:16px;height:16px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+              Study Notes
+            </button>
             <button id="selectAllBtn" class="btn btn-secondary">Select all</button>
           </div>
         </div>
@@ -92,7 +108,123 @@
       </div>
     </section>
 
-    <!-- VIEW 2: Quiz Runner View -->
+    <!-- VIEW 2: Study Material & Interactive Notes View -->
+    <section id="studyView" class="view hidden">
+      <div class="study-container">
+        <!-- Study Header -->
+        <div class="study-header">
+          <div class="breadcrumbs">
+            <a href="#" class="crumb-link" id="studyBackLink">Courses / Sustainable Transportation Systems &middot; 2026</a>
+          </div>
+          <div class="study-title-row">
+            <div>
+              <h1 class="course-title">Study Material &amp; Lecture Notes</h1>
+              <p class="course-subtitle">Comprehensive guide extracted from NPTEL Course Book 105107210 (Prof. Bhola Ram Gurjar, IIT Roorkee &middot; 60 Lectures &middot; 1839 pages).</p>
+            </div>
+            <div class="header-actions">
+              <button id="studyToQuizBtn" class="btn btn-primary">
+                <svg style="width:16px;height:16px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+                Practice Quizzes
+              </button>
+            </div>
+          </div>
+
+          <!-- Study Navigation Modes -->
+          <div class="study-mode-switcher">
+            <button class="study-tab-btn active" data-studymode="lectures">
+              <svg style="width:16px;height:16px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+              60 Lectures Breakdown
+            </button>
+            <button class="study-tab-btn" data-studymode="flashcards">
+              <svg style="width:16px;height:16px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+              Interactive Flashcards (<span id="flashcardCountBadge">80</span>)
+            </button>
+            <button class="study-tab-btn" data-studymode="glossary">
+              <svg style="width:16px;height:16px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+              Key Terms &amp; Acronyms
+            </button>
+          </div>
+
+          <!-- Search & Filter Controls -->
+          <div class="study-controls-bar">
+            <div class="search-input-wrap">
+              <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              <input type="text" id="studySearchInput" placeholder="Search across 60 lectures, topics, concepts, EIA, TOD, BRTS, STAN, LCA..." />
+              <button id="clearSearchBtn" class="clear-search-btn hidden">&times;</button>
+            </div>
+            
+            <div class="filter-controls-group">
+              <select id="weekFilterSelect" class="styled-select" aria-label="Filter by week">
+                <option value="all">All 12 Weeks</option>
+                <option value="1">Week 1: Intro &amp; Sustainability</option>
+                <option value="2">Week 2: Environmental Impacts</option>
+                <option value="3">Week 3: EIA Foundations</option>
+                <option value="4">Week 4: Global EIA Case Studies</option>
+                <option value="5">Week 5: Land Use &amp; TOD</option>
+                <option value="6">Week 6: TOD Cases &amp; 4-Step Planning</option>
+                <option value="7">Week 7: TDM &amp; Life Cycle Assessment</option>
+                <option value="8">Week 8: Material Flow Analysis (MFA)</option>
+                <option value="9">Week 9: Dispersion &amp; Acoustics</option>
+                <option value="10">Week 10: Fuels, EVs &amp; BRTS</option>
+                <option value="11">Week 11: MRT, Airports &amp; openLCA</option>
+                <option value="12">Week 12: STAN &amp; Sustainability Ratings</option>
+              </select>
+              <button id="toggleExpandAllBtn" class="btn btn-secondary">Expand all</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- SUBSECTION A: Lectures Breakdown -->
+        <div id="lecturesContent" class="study-subview active-subview">
+          <div class="study-weeks-accordion" id="studyWeeksAccordion">
+            <!-- Generated dynamically -->
+          </div>
+        </div>
+
+        <!-- SUBSECTION B: Interactive Flashcards -->
+        <div id="flashcardsContent" class="study-subview hidden">
+          <div class="flashcard-deck-wrapper">
+            <div class="flashcard-meta-bar">
+              <span class="flashcard-counter" id="flashcardCounter">Card 1 of 80</span>
+              <span class="badge" id="flashcardCategoryBadge">History</span>
+            </div>
+
+            <!-- 3D Flip Flashcard -->
+            <div class="flashcard" id="activeFlashcard" title="Click to flip card">
+              <div class="flashcard-inner">
+                <div class="flashcard-front">
+                  <div class="card-prompt-label">QUESTION / CONCEPT</div>
+                  <div class="card-text" id="cardFrontText">What was the very first form of transportation for humans?</div>
+                  <div class="card-hint">Click card to reveal answer &rarr;</div>
+                </div>
+                <div class="flashcard-back">
+                  <div class="card-answer-label">ANSWER &amp; EXPLANATION</div>
+                  <div class="card-text" id="cardBackText">Walking (primitive locomotion).</div>
+                  <div class="card-page-ref" id="cardPageRef">NPTEL Course Book pp. 4–32</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Flashcard Navigation Controls -->
+            <div class="flashcard-controls">
+              <button id="prevFlashcardBtn" class="btn btn-secondary">&larr; Previous</button>
+              <button id="flipFlashcardBtn" class="btn btn-primary">Flip Card</button>
+              <button id="nextFlashcardBtn" class="btn btn-secondary">Next &rarr;</button>
+              <button id="shuffleFlashcardsBtn" class="btn btn-subtle" title="Shuffle deck">Shuffle</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- SUBSECTION C: Glossary & Key Terms -->
+        <div id="glossaryContent" class="study-subview hidden">
+          <div class="glossary-grid" id="glossaryGrid">
+            <!-- Rendered dynamically -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 3: Quiz Runner View -->
     <section id="quizView" class="view hidden">
       <div class="quiz-container">
         <!-- Quiz Breadcrumb & Header -->
@@ -147,7 +279,7 @@
       </div>
     </section>
 
-    <!-- VIEW 3: Results & Review View -->
+    <!-- VIEW 4: Results & Review View -->
     <section id="resultsView" class="view hidden">
       <div class="results-container">
         <div class="quiz-top-nav">
@@ -188,7 +320,7 @@
       </div>
     </section>
 
-    <!-- VIEW 4: View Wrong Answers Modal/Overlay -->
+    <!-- VIEW 5: View Wrong Answers Modal/Overlay -->
     <div id="wrongAnswersModal" class="modal-overlay hidden">
       <div class="modal-card">
         <div class="modal-header">
@@ -233,8 +365,9 @@
     </div>
   </main>
 
-  <!-- Load Data script (works with file:// and http://) -->
+  <!-- Load Data scripts (works offline, with file:// and http://) -->
   <script src="data/questions.js"></script>
+  <script src="data/study_material.js"></script>
   <!-- Load App script -->
   <script src="app.js"></script>
 </body>
